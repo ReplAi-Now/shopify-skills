@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://www.replai.now/?utm_source=github&utm_medium=readme&utm_campaign=shopify-skills">
+    <img alt="Skills for real Shopify stores. Free AI skills for store owners, by ReplAi." src="./assets/banner.jpg" width="100%">
+  </a>
+</p>
+
 # Skills For Real Shopify Stores
 
 Free AI skills that do the store jobs you keep putting off: calming down angry customers, writing product pages that sell, and more on the way.
