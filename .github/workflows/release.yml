@@ -1,0 +1,24 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # One zip per skill with the skill folder at the top level: the layout Claude.ai's skill upload expects.
+      - run: |
+          mkdir dist
+          for dir in skills/*/*/; do
+            name="$(basename "$dir")"
+            (cd "$(dirname "$dir")" && zip -r "$GITHUB_WORKSPACE/dist/$name.zip" "$name" -x '*.DS_Store')
+          done
+      - run: gh release create "$GITHUB_REF_NAME" dist/*.zip --generate-notes
+        env:
+          GH_TOKEN: ${{ github.token }}

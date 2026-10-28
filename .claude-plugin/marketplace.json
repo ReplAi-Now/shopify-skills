@@ -1,0 +1,17 @@
+{
+  "name": "replai",
+  "owner": {
+    "name": "ReplAi",
+    "url": "https://www.replai.now"
+  },
+  "description": "Free agent skills for Shopify store owners, from ReplAi.",
+  "plugins": [
+    {
+      "name": "shopify-skills",
+      "source": "./",
+      "description": "Agent skills for Shopify store owners: calm replies to angry customers, product descriptions that sell, and more.",
+      "category": "productivity",
+      "keywords": ["shopify", "ecommerce", "customer-support", "copywriting", "skills"]
+    }
+  ]
+}

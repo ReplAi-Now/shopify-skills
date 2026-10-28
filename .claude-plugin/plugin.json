@@ -1,0 +1,17 @@
+{
+  "name": "shopify-skills",
+  "version": "1.0.0",
+  "description": "Agent skills for Shopify store owners: calm replies to angry customers, product descriptions that sell, and more. Free, from ReplAi.",
+  "author": {
+    "name": "ReplAi",
+    "url": "https://www.replai.now"
+  },
+  "homepage": "https://www.replai.now",
+  "repository": "https://github.com/ReplAi-Now/shopify-skills",
+  "license": "MIT",
+  "keywords": ["shopify", "ecommerce", "customer-support", "copywriting", "skills"],
+  "skills": [
+    "./skills/support/angry-customer-reply",
+    "./skills/store/product-descriptions"
+  ]
+}
