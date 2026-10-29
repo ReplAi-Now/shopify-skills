@@ -12,6 +12,44 @@ They work in Claude (web and desktop app), Claude Code, and most other AI agents
 
 Made by [ReplAi](https://www.replai.now/?utm_source=github&utm_medium=readme&utm_campaign=shopify-skills), the AI support agent for Shopify stores.
 
+## See It Work
+
+<p align="center">
+  <img alt="A store owner pastes one prompt with an orders export. The AI installs the skills, asks four setup questions once, then shows that 24.7% of cash on delivery orders came back unpaid, the three changes that save the most, and a dashboard." src="./assets/demo-cod-rto.gif" width="100%">
+</p>
+
+One prompt, four setup questions, then the answer and a dashboard. The store in this demo is made up. The numbers are what [`cod-rto-analysis`](./skills/operations/cod-rto-analysis/SKILL.md) really worked out from its orders export.
+
+## Fastest Start: Paste One Prompt
+
+Copy this into your AI agent. Change the part after "then" to the job you want done, and attach your file if the job needs one.
+
+```text
+Install the free Shopify skills from https://github.com/ReplAi-Now/shopify-skills, then show me where my cash on delivery orders fail and what it costs me.
+```
+
+Agents that can run commands (Claude Code, Claude Cowork, Cursor, Codex) install the skills themselves. In the Claude web or desktop app, add the skills with the 2-minute setup below first, then paste only the part after "then".
+
+<details>
+<summary><strong>A ready prompt for every skill</strong></summary>
+
+| Skill | Paste after "then" | Have ready |
+|---|---|---|
+| angry-customer-reply | help me reply to this angry customer: [paste their message] | Their message, the order, what you are willing to offer |
+| product-descriptions | write a product description and SEO title for this product: [details or link] | Product facts, a link or photos |
+| catalog-photoshoot | turn the photos in this folder into catalog photos on one model. | Magnific or Higgsfield connected, your product photos |
+| shopify-catalog-upload | upload the products in this folder to my store. Prices and stock are in this sheet. | Shopify connected with write access, photos, prices, sizes, stock |
+| size-chart-builder | make a size chart in English and Arabic from this spec sheet. | Your measurements or the supplier's sheet |
+| conversion-optimiser | audit my store [your store link] for what stops people buying. | Your store link |
+| true-profit | show me which products really make money after ads, shipping and returns. | Orders export or Shopify connected, product costs, ad exports |
+| cod-rto-analysis | show me where my cash on delivery orders fail and what it costs me. | Orders export or Shopify connected. Courier exports help. |
+| returns-reason-analysis | tell me why customers return or exchange, and which products to fix. | Orders export or Shopify connected |
+| demand-planner | tell me what to reorder this week, and how much. | Orders and stock exports or Shopify connected, unit costs, supplier lead times |
+| dead-stock-clearance | find the stock that is not selling and how much cash is stuck in it. | Orders, products and stock exports or Shopify connected, unit costs |
+| weekly-kpi-digest | give me last week's store digest, and send it every Saturday. | Orders export or Shopify connected |
+
+</details>
+
 ## Installation (2-minute setup)
 
 Pick one route. Installing the same skills twice gives you duplicates.
