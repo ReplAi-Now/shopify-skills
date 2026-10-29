@@ -1,0 +1,13 @@
+{
+ "currency": "EGP",
+ "default_outbound_shipping": 50,
+ "default_return_shipping": 40,
+ "default_cod_fee_failed": 0,
+ "packaging_cost": 10,
+ "min_orders": 3,
+ "value_bands": [
+  500,
+  1000
+ ],
+ "rate_gap_for_action": 0.15
+}

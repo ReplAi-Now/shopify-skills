@@ -1,0 +1,8 @@
+{
+ "currency": "EGP",
+ "default_outbound_shipping": 0,
+ "default_return_shipping": 0,
+ "packaging_cost": 0,
+ "min_orders": 3,
+ "rate_gap_for_action": 0.15
+}

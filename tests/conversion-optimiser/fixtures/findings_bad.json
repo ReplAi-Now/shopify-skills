@@ -1,0 +1,4 @@
+{"checks": [
+  {"id": "P1", "area": "product", "status": "fail", "impact": "huge", "effort": "low", "fix": "x"},
+  {"id": "P1", "area": "footer", "status": "maybe"}
+]}

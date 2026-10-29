@@ -1,0 +1,4 @@
+{"lighthouseResult": {"requestedUrl": "https://demo-store.example/", "configSettings": {"formFactor": "mobile"},
+ "categories": {"performance": {"score": 0.95}},
+ "audits": {"largest-contentful-paint": {"numericValue": 2400}, "cumulative-layout-shift": {"numericValue": 0.3},
+            "total-blocking-time": {"numericValue": 700}}}}

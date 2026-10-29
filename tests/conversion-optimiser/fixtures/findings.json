@@ -1,0 +1,25 @@
+{
+ "store": "demo-store.myshopify.com",
+ "store_url": "https://demo-store.example",
+ "audited_at": "2026-10-29",
+ "checks": [
+  {"id": "S1", "area": "speed", "title": "Mobile speed score", "status": "fail", "impact": "high", "effort": "medium",
+   "evidence": {"url": "https://demo-store.example/", "seen": "PageSpeed mobile 31/100"}, "fix": "Compress hero image", "change_type": "theme"},
+  {"id": "P5", "area": "product", "title": "Delivery time near Add to cart", "status": "fail", "impact": "high", "effort": "low",
+   "evidence": {"url": "https://demo-store.example/products/shirt", "seen": "No delivery time anywhere on the page"}, "fix": "Add 'Delivery in 2-4 days' text block under the button", "change_type": "theme"},
+  {"id": "P4", "area": "product", "title": "Size chart", "status": "partial", "impact": "medium", "effort": "low",
+   "evidence": {"url": "https://demo-store.example/products/shirt", "seen": "Size chart is an image, unreadable at 390px"}, "fix": "Replace with HTML table", "change_type": "content"},
+  {"id": "T2", "area": "trust", "title": "WhatsApp contact", "status": "fail", "impact": "med", "effort": "medium",
+   "evidence": {"url": "https://demo-store.example/", "seen": "WhatsApp icon links to a wrong number"}, "fix": "Fix the link to wa.me/<number>", "change_type": "theme"},
+  {"id": "E3", "area": "seo", "title": "Image alt text", "status": "fail", "impact": "low", "effort": "low",
+   "evidence": {"url": "https://demo-store.example/products/shirt", "seen": "5 of 6 images have empty alt"}, "fix": "Write alt text", "change_type": "content"},
+  {"id": "C2", "area": "checkout", "title": "No extra required fields", "status": "fail", "impact": "high", "effort": "high",
+   "evidence": {"url": "https://demo-store.example/checkouts", "seen": "Company name is required"}, "fix": "Settings > Checkout > Company name: Don't include", "change_type": "setting"},
+  {"id": "A3", "area": "arabic", "title": "Arabic translation quality", "status": "fail", "impact": "low", "effort": "high",
+   "evidence": {"url": "https://demo-store.example/ar", "seen": "Footer strings in English"}, "fix": "Translate footer strings", "change_type": "content"},
+  {"id": "N2", "area": "navigation", "title": "Search works", "status": "pass", "impact": "high"},
+  {"id": "M1", "area": "mobile", "title": "No sideways scroll", "status": "pass"},
+  {"id": "T3", "area": "trust", "title": "Policy pages", "status": "na"},
+  {"id": "C1", "area": "checkout", "title": "Guest checkout", "status": "unknown", "note": "checkout not reachable"}
+ ]
+}

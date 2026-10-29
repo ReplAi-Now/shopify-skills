@@ -1,0 +1,569 @@
+{
+  "version": "1.0.0",
+  "notes": "Keywords are matched after normalisation: lowercase, Arabic diacritics removed, alef forms to bare alef, taa marbuta to haa, alef maqsura to yaa, and any run of the same letter collapsed to one (so kbeeer = kbeer, واااسع = واسع). Latin keywords match whole words or phrases; Arabic keywords match anywhere, except keyword groups whose name ends in _word (for example ar_word), which match whole words only (so بدل, instead of, does not match استبدل or بدله). Longer keywords win over shorter ones they overlap. A size keyword right after a negator (not, isnt, مش, مو, ما, mesh, ma) does not count (classify_reasons.py NEGATORS). Ties go to the earlier category in priority.",
+  "priority": [
+    "refused_at_door",
+    "wrong_item",
+    "damaged_in_shipping",
+    "quality_defect",
+    "size_too_small",
+    "size_too_large",
+    "not_as_pictured",
+    "late_delivery",
+    "fit_other",
+    "changed_mind",
+    "other"
+  ],
+  "categories": {
+    "size_too_small": {
+      "label": "Size too small",
+      "fix": "Runs small: shift the size chart one size (tell customers to size up) and recheck the supplier spec sheet.",
+      "unsellable_share": 0.05,
+      "keywords": {
+        "en": [
+          "too small",
+          "small",
+          "smaller",
+          "tight",
+          "too tight",
+          "size up",
+          "runs small",
+          "narrow",
+          "bigger size",
+          "a size bigger",
+          "larger size",
+          "a size larger",
+          "one size up",
+          "size bigger"
+        ],
+        "ar": [
+          "صغير",
+          "صغيره",
+          "ضيق",
+          "ضيقه",
+          "مقاس صغير",
+          "محزق",
+          "قصير عليا",
+          "مقاس اكبر",
+          "مقاس أكبر"
+        ],
+        "franco": [
+          "sghayar",
+          "soghayar",
+          "so8ayar",
+          "sogayar",
+          "s8ayar",
+          "dayy2",
+          "daye2",
+          "dayya2",
+          "ma7zo2",
+          "mezan sghayar",
+          "ma2as akbar",
+          "size akbar",
+          "ma2as akbr"
+        ]
+      }
+    },
+    "size_too_large": {
+      "label": "Size too large",
+      "fix": "Runs large: shift the size chart one size down (tell customers to size down) and recheck the supplier spec sheet.",
+      "unsellable_share": 0.05,
+      "keywords": {
+        "en": [
+          "too big",
+          "too large",
+          "big",
+          "bigger",
+          "loose",
+          "too loose",
+          "baggy",
+          "size down",
+          "runs large",
+          "smaller size",
+          "a size smaller",
+          "one size down",
+          "size smaller"
+        ],
+        "ar": [
+          "كبير",
+          "كبيره",
+          "واسع",
+          "واسعه",
+          "وسيع",
+          "مقاس كبير",
+          "مقاس اصغر",
+          "مقاس أصغر"
+        ],
+        "franco": [
+          "kbeer",
+          "kebir",
+          "kbir",
+          "kebeer",
+          "wase3",
+          "wasi3",
+          "wasa3",
+          "wesi3",
+          "ma2as asghar",
+          "size asghar",
+          "ma2as as8ar"
+        ]
+      }
+    },
+    "fit_other": {
+      "label": "Fit (other)",
+      "fix": "Fit complaints without a clear direction: add model height and size worn, garment length and sleeve measurements, and fit notes (slim, regular, oversized).",
+      "unsellable_share": 0.05,
+      "keywords": {
+        "en": [
+          "fit",
+          "doesn't fit",
+          "does not fit",
+          "didn't fit",
+          "not fitting",
+          "too long",
+          "too short",
+          "wrong size",
+          "size issue",
+          "length",
+          "sleeves"
+        ],
+        "ar": [
+          "المقاس",
+          "مقاس",
+          "مش مقاسي",
+          "مقاس غلط",
+          "المقاس مش مظبوط",
+          "طويل",
+          "قصير",
+          "الطول",
+          "مقاسي غلط",
+          "طلبت مقاس غلط"
+        ],
+        "franco": [
+          "ma2as",
+          "el ma2as",
+          "mesh ma2asy",
+          "msh ma2asy",
+          "ma2as ghalat",
+          "taweel",
+          "2osayar",
+          "osayar"
+        ]
+      }
+    },
+    "quality_defect": {
+      "label": "Quality or defect",
+      "fix": "Defects: raise with the supplier with photos and counts, and add a quality check before dispatch for this product.",
+      "unsellable_share": 1.0,
+      "keywords": {
+        "en": [
+          "defect",
+          "defective",
+          "faulty",
+          "broken",
+          "torn",
+          "tear",
+          "ripped",
+          "hole",
+          "stain",
+          "stained",
+          "poor quality",
+          "bad quality",
+          "low quality",
+          "cheap material",
+          "stitching came",
+          "loose threads",
+          "not working",
+          "doesn't work",
+          "stopped working",
+          "fading",
+          "faded",
+          "pilling"
+        ],
+        "ar": [
+          "عيب",
+          "معيوب",
+          "فيه عيب",
+          "مقطوع",
+          "مخروم",
+          "خرم",
+          "بقعه",
+          "جوده وحشه",
+          "جوده سيئه",
+          "الخامه وحشه",
+          "خامه وحشه",
+          "الخامه سيئه",
+          "خامه رديئه",
+          "مش شغال",
+          "بايظ",
+          "مفتوق",
+          "باهت",
+          "بهت"
+        ],
+        "franco": [
+          "3eib",
+          "3eb",
+          "ma3yoob",
+          "ma3yob",
+          "ma2to3",
+          "makhroom",
+          "ma5room",
+          "el 5ama we7sha",
+          "el khama we7sha",
+          "5ama we7sha",
+          "khama w7sha",
+          "gawda we7sha",
+          "bayez",
+          "bayza",
+          "mesh shaghal",
+          "msh sha8al",
+          "maftoo2",
+          "bahet"
+        ]
+      }
+    },
+    "not_as_pictured": {
+      "label": "Not as pictured or colour different",
+      "fix": "Looks different from the photos: reshoot in daylight with true colour, fix colour names, and add an unedited real-life photo.",
+      "unsellable_share": 0.05,
+      "keywords": {
+        "en": [
+          "not as pictured",
+          "not as described",
+          "different from picture",
+          "different from the picture",
+          "different from photo",
+          "looks different",
+          "colour different",
+          "color different",
+          "different colour",
+          "different color",
+          "colour is different",
+          "color is different",
+          "not the same colour",
+          "not the same color",
+          "colour",
+          "color",
+          "shade",
+          "picture",
+          "photo"
+        ],
+        "ar": [
+          "مش زي الصوره",
+          "غير الصوره",
+          "مختلف عن الصوره",
+          "اللون مختلف",
+          "لون مختلف",
+          "اللون غير",
+          "مش نفس اللون",
+          "اللون",
+          "الصوره"
+        ],
+        "franco": [
+          "el lon mokhtalef",
+          "lon mokhtalef",
+          "el lon",
+          "mesh zay el sora",
+          "msh zay el sora",
+          "mesh zay el soura",
+          "msh zay el soura",
+          "el sora",
+          "el soura",
+          "mokhtalef"
+        ]
+      }
+    },
+    "wrong_item": {
+      "label": "Wrong item sent",
+      "fix": "Picking or labelling error: check the SKU labels and shelf position for this variant and add a scan or second check at packing.",
+      "unsellable_share": 0.0,
+      "keywords": {
+        "en": [
+          "wrong item",
+          "wrong product",
+          "wrong size sent",
+          "sent wrong size",
+          "wrong colour sent",
+          "wrong color sent",
+          "sent the wrong",
+          "received wrong",
+          "received the wrong",
+          "not what i ordered",
+          "different item",
+          "different product",
+          "instead of",
+          "in place of",
+          "different colour sent",
+          "different color sent",
+          "different colour than ordered",
+          "different color than ordered",
+          "different colour than i ordered",
+          "different color than i ordered",
+          "different colour from what i ordered",
+          "different color from what i ordered",
+          "not the colour i ordered",
+          "not the color i ordered",
+          "not the size i ordered",
+          "not the one i ordered",
+          "sent another colour",
+          "sent another color"
+        ],
+        "ar": [
+          "منتج غلط",
+          "غلط",
+          "مش اللي طلبته",
+          "مش اللي طلبتها",
+          "وصلني غير",
+          "بعتولي غلط",
+          "بعتولي حاجه تانيه",
+          "وصلني مقاس غلط",
+          "بعتولي مقاس غلط",
+          "جالي مقاس غلط",
+          "اللون المطلوب",
+          "المقاس المطلوب",
+          "غير المطلوب",
+          "مختلف عن المطلوب",
+          "لون تاني",
+          "مقاس تاني",
+          "مش اللون اللي طلبته",
+          "مش المقاس اللي طلبته",
+          "مش اللي طلبناه",
+          "مش اللى طلبته",
+          "بدلا من اللون",
+          "بدلا من المقاس",
+          "بدلا من",
+          "بدل من اللون"
+        ],
+        "franco": [
+          "ghalat",
+          "8alat",
+          "mesh elly talabto",
+          "msh ely talabto",
+          "mesh elly talabtaha",
+          "ba3atooly ghalat",
+          "ba3toly 8alat",
+          "7aga tanya",
+          "lon tany",
+          "lon tani",
+          "loon tany",
+          "el lon el tany",
+          "ma2as tany",
+          "badal el",
+          "bdal el",
+          "mesh el lon elly talabto",
+          "msh el lon ely talabto"
+        ],
+        "ar_word": [
+          "بدل",
+          "بدال",
+          "بدلا"
+        ]
+      }
+    },
+    "damaged_in_shipping": {
+      "label": "Damaged in shipping",
+      "fix": "Damaged in transit: improve packaging for this product (box, padding, poly mailer) and claim from the courier with photos.",
+      "unsellable_share": 1.0,
+      "keywords": {
+        "en": [
+          "damaged",
+          "arrived damaged",
+          "damaged in shipping",
+          "damaged in transit",
+          "crushed",
+          "box damaged",
+          "package damaged",
+          "broken on arrival",
+          "arrived broken",
+          "smashed",
+          "leaked"
+        ],
+        "ar": [
+          "وصل مكسور",
+          "مكسور",
+          "متكسر",
+          "اتكسر",
+          "الكرتونه",
+          "التغليف",
+          "متبهدل",
+          "مدشدش"
+        ],
+        "franco": [
+          "maksoor",
+          "maksor",
+          "mtkaser",
+          "metkaser",
+          "etkasar",
+          "et7atam",
+          "el kartona",
+          "el taghlif",
+          "mbahdel"
+        ]
+      }
+    },
+    "late_delivery": {
+      "label": "Late delivery",
+      "fix": "Arrived too late: check the courier's delivery times for the affected areas and show realistic delivery dates on the product page.",
+      "unsellable_share": 0.0,
+      "keywords": {
+        "en": [
+          "late",
+          "too late",
+          "delay",
+          "delayed",
+          "took too long",
+          "slow delivery",
+          "never arrived",
+          "arrived late",
+          "after the occasion"
+        ],
+        "ar": [
+          "تاخير",
+          "متاخر",
+          "اتاخر",
+          "اتاخرت",
+          "ماوصلش",
+          "ما وصلش",
+          "بعد المعاد"
+        ],
+        "franco": [
+          "et2a5ar",
+          "et2akhar",
+          "mt2a5ar",
+          "mt2akhar",
+          "ta2kheer",
+          "ta25eer",
+          "2a5ar"
+        ]
+      }
+    },
+    "changed_mind": {
+      "label": "Changed mind",
+      "fix": "Changed mind: check the description and photos set the right expectation, and offer exchange or store credit before refund.",
+      "unsellable_share": 0.05,
+      "keywords": {
+        "en": [
+          "changed my mind",
+          "change of mind",
+          "changed mind",
+          "don't want",
+          "dont want",
+          "do not want",
+          "no longer need",
+          "no longer want",
+          "didn't like",
+          "did not like",
+          "don't like",
+          "not needed",
+          "ordered by mistake",
+          "found cheaper",
+          "not my style",
+          "unwanted"
+        ],
+        "ar": [
+          "غيرت رايي",
+          "مش عايز",
+          "مش عاوز",
+          "مش عايزه",
+          "مش عاوزه",
+          "معجبنيش",
+          "مش عاجبني",
+          "مش محتاج",
+          "مش محتاجه",
+          "طلبته بالغلط"
+        ],
+        "franco": [
+          "ghayart ra2yi",
+          "8ayart ra2yi",
+          "mesh 3ayez",
+          "msh 3ayz",
+          "mesh 3awez",
+          "msh 3ayza",
+          "mesh 3agebny",
+          "msh 3agbny",
+          "ma3gabnish",
+          "mesh me7tag",
+          "msh m7tag"
+        ]
+      }
+    },
+    "refused_at_door": {
+      "label": "Refused at door (COD)",
+      "fix": "Refused on delivery: confirm COD orders before shipping (call or message), and see the cod-rto-analysis skill for areas and couriers.",
+      "unsellable_share": 0.0,
+      "keywords": {
+        "en": [
+          "refused",
+          "refused delivery",
+          "refused to receive",
+          "rejected",
+          "rejected at door",
+          "customer refused",
+          "rto",
+          "return to origin",
+          "returned to origin",
+          "not answering"
+        ],
+        "ar": [
+          "رفض",
+          "رفض الاستلام",
+          "رفضت الاستلام",
+          "مرفوض",
+          "لم يستلم",
+          "مستلمش",
+          "مردش",
+          "مبيردش"
+        ],
+        "franco": [
+          "rafad",
+          "refad",
+          "rafadt",
+          "mestalamsh",
+          "mastalamsh",
+          "rafad yestelem",
+          "mabyrodsh",
+          "maradsh"
+        ]
+      }
+    },
+    "other": {
+      "label": "Other",
+      "fix": "No single pattern: read the notes for this product.",
+      "unsellable_share": 0.05,
+      "keywords": {
+        "en": [],
+        "ar": [],
+        "franco": []
+      }
+    }
+  },
+  "reason_codes": {
+    "size_too_small": "size_too_small",
+    "size_too_large": "size_too_large",
+    "color": "not_as_pictured",
+    "colour": "not_as_pictured",
+    "not_as_described": "not_as_pictured",
+    "defective": "quality_defect",
+    "damaged": "damaged_in_shipping",
+    "wrong_item": "wrong_item",
+    "unwanted": "changed_mind",
+    "style": "changed_mind",
+    "other": null,
+    "unknown": null
+  },
+  "exchange_keywords": [
+    "exchange",
+    "swap",
+    "replace",
+    "replacement",
+    "استبدال",
+    "تبديل",
+    "تغيير",
+    "بدل",
+    "badal",
+    "tabdeel",
+    "tabdil",
+    "estebdal",
+    "ghayar"
+  ]
+}

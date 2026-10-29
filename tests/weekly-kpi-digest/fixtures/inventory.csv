@@ -1,0 +1,7 @@
+Handle,Title,Option1 Name,Option1 Value,Variant SKU,Variant Inventory Qty
+tee,Tee,Size,M,TEE-M,1
+tee,,,L,TEE-L,0
+hoodie,Hoodie,Size,M,HOOD-M,2
+hoodie,,,L,HOOD-L,5
+socks,Socks,Color,Black,SOCK-B,100
+cap,Cap,Title,Default Title,CAP,10

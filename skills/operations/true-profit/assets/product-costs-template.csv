@@ -1,0 +1,4 @@
+sku,product,variant,unit_cost,currency,source,invoice_ref,invoice_date
+TSHIRT-BLK-M,Basic T-shirt,Black / M,95,EGP,supplier invoice,INV-0001,2026-09-14
+TSHIRT-WHT-M,Basic T-shirt,White / M,95,EGP,supplier invoice,INV-0001,2026-09-14
+BAG-01,Canvas Tote,,4.2,USD,supplier invoice,INV-0002,2026-09-20

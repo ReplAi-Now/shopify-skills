@@ -1,0 +1,4 @@
+AWB,Order No,Shipment Status,Shipping Cost,Return Cost
+AWB0,200,Returned,50,50
+AWB1,201,Refused by customer,50,50
+AWB2,202,Delivered,50,50

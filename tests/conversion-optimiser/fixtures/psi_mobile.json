@@ -1,0 +1,28 @@
+{
+ "id": "https://demo-store.example/",
+ "loadingExperience": {
+  "overall_category": "AVERAGE",
+  "metrics": {
+   "LARGEST_CONTENTFUL_PAINT_MS": {"percentile": 3100, "category": "AVERAGE"},
+   "INTERACTION_TO_NEXT_PAINT": {"percentile": 180, "category": "FAST"},
+   "CUMULATIVE_LAYOUT_SHIFT_SCORE": {"percentile": 12, "category": "AVERAGE"}
+  }
+ },
+ "lighthouseResult": {
+  "requestedUrl": "https://demo-store.example/",
+  "finalDisplayedUrl": "https://demo-store.example/",
+  "configSettings": {"formFactor": "mobile"},
+  "categories": {"performance": {"score": 0.42}},
+  "audits": {
+   "largest-contentful-paint": {"numericValue": 5200},
+   "cumulative-layout-shift": {"numericValue": 0.05},
+   "total-blocking-time": {"numericValue": 450},
+   "first-contentful-paint": {"numericValue": 2100},
+   "speed-index": {"numericValue": 4800},
+   "uses-optimized-images": {"title": "Efficiently encode images", "score": 0.5, "details": {"type": "opportunity", "overallSavingsMs": 600, "overallSavingsBytes": 307200}},
+   "offscreen-images": {"title": "Defer offscreen images", "score": 0.5, "details": {"type": "opportunity", "overallSavingsMs": 300, "overallSavingsBytes": 204800}},
+   "render-blocking-resources": {"title": "Eliminate render-blocking resources", "score": 0, "details": {"type": "opportunity", "overallSavingsMs": 1200}},
+   "uses-text-compression": {"title": "Enable text compression", "score": 1, "details": {"type": "opportunity", "overallSavingsMs": 0}}
+  }
+ }
+}

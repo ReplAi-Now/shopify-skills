@@ -1,0 +1,3 @@
+sku,vendor,lead_time_days,lead_time_sd_days,moq,case_pack,unit_cost
+SKU-A,,5,0,10,6,
+,Delta Mills,10,2,,,

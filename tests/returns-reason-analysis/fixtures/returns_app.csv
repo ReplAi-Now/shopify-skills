@@ -1,0 +1,11 @@
+Return ID,Order,SKU,Product,Variant,Quantity,Type,Reason,Reason Code,Customer Note,Refund Amount,Return Shipping Cost
+R1,#2001,LS-M-W,Linen Shirt,M / White,2,Refund,Too small,,,1000,50
+R2,#2003,LS-M-W,Linen Shirt,M / White,1,Exchange,,SIZE_TOO_SMALL,el ma2as sghayar,0,
+R3,#2002,LS-L-W,Linen Shirt,L / White,1,Refund,,,اللون مختلف عن الصورة,500,
+R4,#2001,MD-S-R,Maxi Dress,S / Rose,1,Refund,,DEFECTIVE,,800,
+R5,#2004,MD-S-R,Maxi Dress,S / Rose,1,Refund,,,el 2omash we7esh,800,
+R6,#2003,MD-M-R,Maxi Dress,M / Rose,1,Refund,,,wasi3 gedan,800,
+R7,#2006,MD-M-R,Maxi Dress,M / Rose,1,Refused,,,,0,
+R9,#2007,LS-M-W,Linen Shirt,M / White,1,Refund,,,too small,500,
+R10,#9999,TB,Tote Bag,,1,Refund,,,changed my mind,300,
+R8,#2002,TB,Tote Bag,,1,Exchange,,,arrived damaged,0,

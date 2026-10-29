@@ -1,0 +1,3 @@
+{"skill": "weekly-kpi-digest", "version": "1.0.0", "store_name": "Test Store", "currency": "SAR",
+ "timezone": "Asia/Riyadh", "week_start": "saturday", "flag_threshold_pct": 15, "flag_threshold_pp": 3,
+ "inventory_cover_days": 14, "targets": {"net_sales": 2000}}

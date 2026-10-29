@@ -1,0 +1,18 @@
+{
+  "_note": "Typical ease in cm (garment circumference minus body circumference) as [min, max]. Starting points, not universal truth. Brands can copy this file, edit it and pass it with --ease-file.",
+  "tops": {
+    "chest":  {"stretch": [-4, 0], "fitted": [4, 6], "regular": [8, 12], "relaxed": [14, 18], "oversized": [20, 30]},
+    "waist":  {"stretch": [-4, 0], "fitted": [4, 8], "regular": [10, 16], "relaxed": [16, 24], "oversized": [24, 36]},
+    "hip":    {"stretch": [-4, 0], "fitted": [4, 8], "regular": [8, 12], "relaxed": [12, 18], "oversized": [20, 30]}
+  },
+  "dresses": {
+    "chest":  {"stretch": [-4, 0], "fitted": [3, 5], "regular": [6, 10], "relaxed": [12, 16], "oversized": [18, 28]},
+    "waist":  {"stretch": [-4, 0], "fitted": [2, 4], "regular": [6, 10], "relaxed": [12, 20], "oversized": [20, 40]},
+    "hip":    {"stretch": [-4, 0], "fitted": [4, 6], "regular": [8, 12], "relaxed": [14, 20], "oversized": [20, 40]}
+  },
+  "bottoms": {
+    "waist":  {"stretch": [-4, 0], "fitted": [0, 2], "regular": [1, 3], "relaxed": [2, 4], "oversized": [3, 6]},
+    "hip":    {"stretch": [-4, 0], "fitted": [2, 4], "regular": [4, 8], "relaxed": [8, 12], "oversized": [12, 20]},
+    "thigh":  {"stretch": [-2, 0], "fitted": [2, 4], "regular": [4, 8], "relaxed": [8, 14], "oversized": [14, 22]}
+  }
+}

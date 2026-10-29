@@ -1,0 +1,1 @@
+{"skill": "demand-planner", "version": "1.0.0", "currency": "EGP", "default_lead_time_days": 5, "lead_time_sd_days": 0, "review_period_days": 2, "service_level_pct": 95, "default_moq": 0, "default_case_pack": 1, "history_days": 4, "half_life_days": 1, "min_history_days": 3, "seasonality": "auto", "output": "dashboard"}

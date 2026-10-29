@@ -1,0 +1,171 @@
+{
+  "about": "Region normalisation table for cod-rto-analysis. Each region lists its official name, Arabic name, Shopify/ISO province codes (matched only inside the same country), spelling variants, and major cities or districts that belong to it. Matching ignores case, Arabic letter variants, hyphens, spaces and words like governorate/province/emirate/region. Add a missing spelling to 'aliases' or 'cities' and rerun.",
+  "version": "1.0.0",
+  "countries": {
+    "EG": {
+      "name": "Egypt",
+      "aliases": ["egypt", "eg", "egy", "misr", "masr", "مصر", "arab republic of egypt"],
+      "regions": [
+        {"name": "Cairo", "ar": "القاهرة", "codes": ["C", "HU"],
+         "aliases": ["cairo", "al qahira", "al qahirah", "el qahira", "el qahera", "qahira", "qahera", "kahira", "cairo city", "le caire", "helwan governorate"],
+         "cities": ["nasr city", "madinet nasr", "مدينة نصر", "new cairo", "القاهرة الجديدة", "fifth settlement", "5th settlement", "el tagamoa", "tagamoa", "tagamo3", "el tagamo3 el khames", "التجمع", "التجمع الخامس", "first settlement", "التجمع الأول", "maadi", "el maadi", "المعادي", "heliopolis", "masr el gedida", "مصر الجديدة", "helwan", "حلوان", "shubra", "shoubra", "شبرا", "zamalek", "الزمالك", "downtown cairo", "wust el balad", "وسط البلد", "mokattam", "el mokattam", "المقطم", "ain shams", "عين شمس", "el marg", "المرج", "madinaty", "مدينتي", "rehab", "el rehab", "al rehab", "الرحاب", "shorouk", "el shorouk", "الشروق", "badr city", "مدينة بدر", "15th of may", "15 may", "15 مايو", "new administrative capital", "new capital", "العاصمة الإدارية", "العاصمة الادارية الجديدة", "zeitoun", "el zeitoun", "الزيتون", "abbasia", "العباسية", "sayeda zeinab", "السيدة زينب", "dar el salam", "دار السلام", "katameya", "القطامية", "el salam city", "مدينة السلام", "manshiyat naser", "hadayek el kobba", "حدائق القبة", "el matareya", "المطرية", "el nozha", "النزهة", "sheraton", "masaken sheraton", "el obour market", "garden city", "جاردن سيتي", "old cairo", "مصر القديمة", "el basatin", "البساتين", "tora", "طره"]},
+        {"name": "Giza", "ar": "الجيزة", "codes": ["GZ", "SU"],
+         "aliases": ["giza", "gizeh", "el giza", "al giza", "al jizah", "jizah", "el geeza", "geeza", "guiza", "gizah", "el gizah", "al gizah", "6th of october governorate"],
+         "cities": ["6th of october", "6th october", "6 october", "6 of october", "sixth of october", "6th of october city", "october", "october city", "madinet 6 october", "السادس من أكتوبر", "السادس من اكتوبر", "6 أكتوبر", "6 اكتوبر", "اكتوبر", "مدينة 6 أكتوبر", "sheikh zayed", "el sheikh zayed", "elsheikh zayed", "sheikh zayed city", "zayed", "الشيخ زايد", "مدينة الشيخ زايد", "dokki", "el dokki", "الدقي", "mohandessin", "mohandeseen", "el mohandessin", "المهندسين", "haram", "el haram", "pyramids", "الهرم", "faisal", "faysal", "فيصل", "imbaba", "إمبابة", "امبابة", "agouza", "el agouza", "العجوزة", "hadayek el ahram", "pyramids gardens", "حدائق الأهرام", "smart village", "القرية الذكية", "october gardens", "hadayek october", "حدائق أكتوبر", "badrashin", "el badrashein", "البدرشين", "hawamdeya", "el hawamdeya", "الحوامدية", "atfih", "أطفيح", "el ayat", "العياط", "el saff", "الصف", "bulaq el dakrour", "بولاق الدكرور", "kerdasa", "كرداسة", "abu rawash", "أبو رواش", "warraq", "الوراق", "manial", "el manial", "المنيل", "omraneya", "العمرانية", "talbiya", "الطالبية", "beverly hills"]},
+        {"name": "Alexandria", "ar": "الإسكندرية", "codes": ["ALX"],
+         "aliases": ["alexandria", "alex", "alexandrie", "iskandariya", "iskandariyah", "eskendereya", "eskendria", "eskandaria", "el iskandaria", "al iskandariyah", "اسكندرية", "إسكندرية"],
+         "cities": ["borg el arab", "new borg el arab", "برج العرب", "smouha", "سموحة", "sidi gaber", "سيدي جابر", "miami", "ميامي", "montaza", "el montaza", "المنتزه", "agami", "el agami", "العجمي", "sidi bishr", "سيدي بشر", "stanley", "ستانلي", "gleem", "جليم", "louran", "لوران", "king mariout", "كينج مريوط", "amreya", "el amreya", "العامرية", "mandara", "المندرة", "asafra", "العصافرة", "sporting", "سبورتنج", "roushdy", "رشدي", "camp shezar", "kafr abdo", "كفر عبده", "san stefano", "سان ستيفانو", "bitash", "البيطاش", "hannoville", "هانوفيل", "moharam bek", "محرم بك", "abu qir", "أبو قير", "maamoura", "المعمورة"]},
+        {"name": "Dakahlia", "ar": "الدقهلية", "codes": ["DK"],
+         "aliases": ["dakahlia", "dakahliya", "daqahlia", "daqahliya", "dakahleya", "dakahleia", "ad daqahliyah", "el dakahlia", "el daqahliya"],
+         "cities": ["mansoura", "el mansoura", "al mansurah", "mansura", "المنصورة", "mit ghamr", "ميت غمر", "talkha", "طلخا", "sherbin", "شربين", "belqas", "bilqas", "بلقاس", "aga", "أجا", "dekernes", "دكرنس", "minyet el nasr", "manzala", "المنزلة", "senbellawein", "السنبلاوين", "gamasa", "جمصة", "new mansoura", "المنصورة الجديدة"]},
+        {"name": "Sharqia", "ar": "الشرقية", "codes": ["SHR"],
+         "aliases": ["sharqia", "sharkia", "sharqiya", "sharqiyah", "sharkeya", "el sharkia", "el sharqia", "ash sharqiyah"],
+         "cities": ["zagazig", "el zagazig", "الزقازيق", "10th of ramadan", "10th of ramadan city", "tenth of ramadan", "10 ramadan", "العاشر من رمضان", "belbeis", "bilbeis", "بلبيس", "minya al qamh", "منيا القمح", "abu hammad", "أبو حماد", "faqous", "fakous", "فاقوس", "hihya", "ههيا", "abu kabir", "أبو كبير", "kafr saqr", "diyarb negm", "ديرب نجم", "mashtoul el souk", "salheya", "الصالحية الجديدة", "new salheya"]},
+        {"name": "Qalyubia", "ar": "القليوبية", "codes": ["KB"],
+         "aliases": ["qalyubia", "qaliubiya", "qalyubiya", "qalyoubia", "kalyoubia", "kaliobeya", "qalubia", "el qalyubia", "al qalyubiyah"],
+         "cities": ["banha", "benha", "بنها", "shubra el kheima", "shubra el khaima", "shoubra el kheima", "شبرا الخيمة", "obour", "el obour", "obour city", "العبور", "مدينة العبور", "qalyub", "qalioub", "قليوب", "khanka", "el khanka", "الخانكة", "khosous", "el khosous", "الخصوص", "tukh", "toukh", "طوخ", "qanater", "el qanater el khayreya", "القناطر الخيرية", "shibin el qanater", "شبين القناطر", "kafr shukr", "كفر شكر", "qaha", "قها", "mostorod", "مسطرد", "bahtim", "بهتيم"]},
+        {"name": "Gharbia", "ar": "الغربية", "codes": ["GH"],
+         "aliases": ["gharbia", "gharbiya", "gharbiyah", "gharbeya", "el gharbia", "al gharbiyah"],
+         "cities": ["tanta", "طنطا", "mahalla", "el mahalla", "el mahalla el kubra", "mahalla kubra", "المحلة", "المحلة الكبرى", "kafr el zayat", "كفر الزيات", "zefta", "zifta", "زفتى", "samanoud", "سمنود", "santa", "السنطة", "basyoun", "بسيون", "qutur", "قطور"]},
+        {"name": "Monufia", "ar": "المنوفية", "codes": ["MNF"],
+         "aliases": ["monufia", "menoufia", "menofia", "minufiya", "minufiyah", "menoufeya", "monofia", "el menofia", "el menoufia", "al minufiyah"],
+         "cities": ["shebin el kom", "shibin el kom", "shibin al kawm", "شبين الكوم", "sadat city", "el sadat city", "مدينة السادات", "menouf", "منوف", "ashmoun", "أشمون", "quesna", "قويسنا", "berket el sab", "بركة السبع", "tala", "تلا", "el bagour", "الباجور", "shohada", "الشهداء", "sers el layan", "سرس الليان"]},
+        {"name": "Beheira", "ar": "البحيرة", "codes": ["BH"],
+         "aliases": ["beheira", "behera", "buhayrah", "beheirah", "el beheira", "el behira", "al buhayrah"],
+         "cities": ["damanhour", "damanhur", "دمنهور", "kafr el dawwar", "kafr el dawar", "كفر الدوار", "rashid", "rosetta", "رشيد", "edku", "idku", "إدكو", "abu hummus", "أبو حمص", "kom hamada", "كوم حمادة", "wadi el natrun", "wadi natrun", "وادي النطرون", "el delengat", "الدلنجات", "itay el barud", "إيتاي البارود", "shubrakhit", "شبراخيت", "hosh issa", "حوش عيسى", "el mahmoudiya", "المحمودية", "new nubaria", "النوبارية"]},
+        {"name": "Kafr El Sheikh", "ar": "كفر الشيخ", "codes": ["KFS"],
+         "aliases": ["kafr el sheikh", "kafr elsheikh", "kafrelsheikh", "kafr al sheikh", "kafr ash shaykh", "kafr el shaikh", "kafr sheikh"],
+         "cities": ["desouk", "dessouk", "دسوق", "baltim", "بلطيم", "fuwwah", "fuwa", "فوه", "sidi salem", "سيدي سالم", "burullus", "البرلس", "qallin", "قلين", "el hamool", "الحامول", "bila", "بيلا", "metoubes", "مطوبس", "riyadh kafr el sheikh"]},
+        {"name": "Damietta", "ar": "دمياط", "codes": ["DT"],
+         "aliases": ["damietta", "damiette", "dumyat", "domyat", "dumyat governorate"],
+         "cities": ["new damietta", "دمياط الجديدة", "ras el bar", "ras elbar", "رأس البر", "faraskur", "فارسكور", "kafr saad", "كفر سعد", "ezbet el borg", "عزبة البرج", "zarqa", "الزرقا", "kafr el battikh", "كفر البطيخ"]},
+        {"name": "Port Said", "ar": "بورسعيد", "codes": ["PTS"],
+         "aliases": ["port said", "portsaid", "port saeed", "bur said", "bor said", "bor saeed", "بور سعيد"],
+         "cities": ["port fouad", "port fuad", "بورفؤاد", "بور فؤاد"]},
+        {"name": "Ismailia", "ar": "الإسماعيلية", "codes": ["IS"],
+         "aliases": ["ismailia", "ismailiya", "ismailiyah", "esmailia", "el ismailia", "al ismailiyah", "ismailya", "esmailya", "ismaileya", "الاسماعيلية"],
+         "cities": ["fayed", "فايد", "qantara", "el qantara", "القنطرة", "tal el kebir", "التل الكبير", "abu suwir", "أبو صوير", "qassasin", "القصاصين"]},
+        {"name": "Suez", "ar": "السويس", "codes": ["SUZ"],
+         "aliases": ["suez", "el suez", "as suways", "suways", "swees", "suez city"],
+         "cities": ["ain sokhna", "el ain el sokhna", "al ain al sokhna", "sokhna", "العين السخنة", "السخنة", "ataqa", "عتاقة", "el arbaeen", "الأربعين", "faisal suez", "el ganayen", "الجناين"]},
+        {"name": "North Sinai", "ar": "شمال سيناء", "codes": ["SIN"],
+         "aliases": ["north sinai", "n sinai", "shamal sina", "shamal sinai", "north sinai governorate"],
+         "cities": ["arish", "el arish", "al arish", "العريش", "sheikh zuweid", "الشيخ زويد", "rafah", "رفح", "bir al abd", "bir el abd", "بئر العبد", "nakhl", "نخل", "hasana", "الحسنة"]},
+        {"name": "South Sinai", "ar": "جنوب سيناء", "codes": ["JS"],
+         "aliases": ["south sinai", "s sinai", "ganoub sina", "janub sina", "janub sina governorate"],
+         "cities": ["sharm el sheikh", "sharm elsheikh", "sharm", "شرم الشيخ", "dahab", "دهب", "nuweiba", "نويبع", "taba", "طابا", "el tor", "al tur", "tor sinai", "الطور", "saint catherine", "st catherine", "سانت كاترين", "ras sudr", "راس سدر", "abu zenima", "أبو زنيمة", "abu rudeis", "أبو رديس"]},
+        {"name": "Red Sea", "ar": "البحر الأحمر", "codes": ["BA"],
+         "aliases": ["red sea", "al bahr al ahmar", "el bahr el ahmar", "bahr ahmar", "red sea governorate"],
+         "cities": ["hurghada", "el ghardaqa", "ghardaqa", "الغردقة", "el gouna", "gouna", "الجونة", "safaga", "سفاجا", "marsa alam", "مرسى علم", "el quseir", "quseir", "القصير", "ras gharib", "رأس غارب", "sahl hasheesh", "سهل حشيش", "makadi", "مكادي", "shalateen", "الشلاتين", "halayeb", "حلايب"]},
+        {"name": "Matrouh", "ar": "مطروح", "codes": ["MT"],
+         "aliases": ["matrouh", "matruh", "marsa matrouh", "mersa matruh", "marsa matruh", "مرسى مطروح", "matrouh governorate"],
+         "cities": ["el alamein", "alamein", "العلمين", "new alamein", "العلمين الجديدة", "siwa", "سيوة", "dabaa", "el dabaa", "الضبعة", "sallum", "el salloum", "السلوم", "sidi abdel rahman", "سيدي عبد الرحمن", "sidi barrani", "سيدي براني", "el hammam", "الحمام"]},
+        {"name": "Faiyum", "ar": "الفيوم", "codes": ["FYM"],
+         "aliases": ["faiyum", "fayoum", "fayyum", "faiyoum", "fayum", "el fayoum", "al fayyum"],
+         "cities": ["ibsheway", "abshway", "إبشواي", "tamiya", "طامية", "sinnuris", "sanhour", "سنورس", "itsa", "إطسا", "youssef el seddik", "يوسف الصديق", "new fayoum", "الفيوم الجديدة"]},
+        {"name": "Beni Suef", "ar": "بني سويف", "codes": ["BNS"],
+         "aliases": ["beni suef", "beni sueif", "beni sweif", "bani suef", "bani suwayf", "banisuef", "benisuef", "beni swaif", "bani sweif", "bani swef", "beni swef"],
+         "cities": ["new beni suef", "بني سويف الجديدة", "el wasta", "الواسطى", "nasser beni suef", "ناصر", "biba", "ببا", "ihnasia", "إهناسيا", "el fashn", "الفشن", "somosta", "سمسطا"]},
+        {"name": "Minya", "ar": "المنيا", "codes": ["MN"],
+         "aliases": ["minya", "minia", "menia", "menya", "el minya", "el menia", "al minya"],
+         "cities": ["mallawi", "ملوي", "samalut", "سمالوط", "maghagha", "مغاغة", "beni mazar", "بني مزار", "abu qurqas", "أبو قرقاص", "new minya", "المنيا الجديدة", "matai", "مطاي", "deir mawas", "دير مواس", "el idwa", "العدوة"]},
+        {"name": "Asyut", "ar": "أسيوط", "codes": ["AST"],
+         "aliases": ["asyut", "assiut", "assiout", "asyout", "asiut", "siut", "asiout", "assuit", "اسيوط"],
+         "cities": ["dairut", "ديروط", "manfalut", "منفلوط", "abnub", "أبنوب", "abu tig", "أبو تيج", "new assiut", "أسيوط الجديدة", "el qusiya", "القوصية", "sahel selim", "ساحل سليم", "el badari", "البداري", "sidfa", "صدفا"]},
+        {"name": "Sohag", "ar": "سوهاج", "codes": ["SHG"],
+         "aliases": ["sohag", "suhag", "sohaj", "suhaj", "souhag"],
+         "cities": ["akhmim", "أخميم", "girga", "جرجا", "tahta", "طهطا", "el maragha", "المراغة", "el balyana", "البلينا", "tama", "طما", "dar el salam sohag", "new sohag", "سوهاج الجديدة", "el monshah", "المنشاة", "juhayna", "جهينة"]},
+        {"name": "Qena", "ar": "قنا", "codes": ["KN"],
+         "aliases": ["qena", "qina", "kena", "keneh", "qenah"],
+         "cities": ["nag hammadi", "naga hammadi", "نجع حمادي", "qus", "قوص", "deshna", "دشنا", "farshut", "فرشوط", "abu tesht", "أبو تشت", "qift", "قفط", "naqada", "نقادة", "new qena", "قنا الجديدة"]},
+        {"name": "Luxor", "ar": "الأقصر", "codes": ["LX"],
+         "aliases": ["luxor", "louxor", "al uqsur", "el uqsur", "el oksor", "الاقصر"],
+         "cities": ["esna", "إسنا", "اسنا", "armant", "أرمنت", "ارمنت", "karnak", "الكرنك", "el tod", "الطود", "new luxor", "طيبة الجديدة"]},
+        {"name": "Aswan", "ar": "أسوان", "codes": ["ASN"],
+         "aliases": ["aswan", "assuan", "asswan", "aswaan", "اسوان"],
+         "cities": ["kom ombo", "كوم أمبو", "كوم امبو", "edfu", "idfu", "إدفو", "ادفو", "daraw", "دراو", "abu simbel", "أبو سمبل", "nasr el nuba", "نصر النوبة", "new aswan", "أسوان الجديدة"]},
+        {"name": "New Valley", "ar": "الوادي الجديد", "codes": ["WAD"],
+         "aliases": ["new valley", "al wadi al jadid", "el wadi el gedid", "wadi el gedid", "wadi gedid", "el wadi el gadid"],
+         "cities": ["kharga", "el kharga", "الخارجة", "dakhla", "el dakhla", "الداخلة", "farafra", "الفرافرة", "baris", "باريس", "mut", "موط", "balat", "بلاط"]}
+      ]
+    },
+    "AE": {
+      "name": "United Arab Emirates",
+      "aliases": ["ae", "uae", "u a e", "united arab emirates", "emirates", "الإمارات", "الامارات", "الإمارات العربية المتحدة"],
+      "regions": [
+        {"name": "Abu Dhabi", "ar": "أبوظبي", "codes": ["AZ", "AD"], "aliases": ["abu dhabi", "abudhabi", "abu dabi", "abu zabi", "أبو ظبي", "ابوظبي", "ابو ظبي"], "cities": ["al ain", "el ain", "العين", "mussafah", "musaffah", "مصفح", "khalifa city", "مدينة خليفة", "ruwais", "الرويس", "yas island", "جزيرة ياس", "saadiyat", "السعديات", "al reem island", "reem island", "shakhbout city", "baniyas", "بني ياس", "madinat zayed", "مدينة زايد", "al dhafra", "الظفرة"]},
+        {"name": "Dubai", "ar": "دبي", "codes": ["DU", "DXB"], "aliases": ["dubai", "dubay", "dubai city"], "cities": ["jebel ali", "جبل علي", "deira", "ديرة", "bur dubai", "بر دبي", "jumeirah", "جميرا", "al barsha", "البرشاء", "dubai marina", "marina", "مرسى دبي", "jlt", "jumeirah lake towers", "jvc", "jumeirah village circle", "business bay", "الخليج التجاري", "downtown dubai", "al quoz", "القوز", "karama", "الكرامة", "al nahda dubai", "mirdif", "مردف", "silicon oasis", "hatta", "حتا", "international city", "al qusais", "القصيص", "dubai south", "palm jumeirah"]},
+        {"name": "Sharjah", "ar": "الشارقة", "codes": ["SH", "SHJ"], "aliases": ["sharjah", "sharja", "al sharjah", "ash shariqah", "shariqah"], "cities": ["khor fakkan", "خورفكان", "kalba", "كلباء", "dibba al hisn", "دبا الحصن", "al nahda sharjah", "al majaz", "المجاز", "al khan", "muwaileh", "مويلح", "al qasimia", "القاسمية"]},
+        {"name": "Ajman", "ar": "عجمان", "codes": ["AJ"], "aliases": ["ajman", "ujman"], "cities": ["al nuaimiya", "النعيمية", "al rashidiya ajman", "al jurf", "الجرف", "masfout", "مصفوت"]},
+        {"name": "Umm Al Quwain", "ar": "أم القيوين", "codes": ["UQ"], "aliases": ["umm al quwain", "umm al qaiwain", "umm al quwwain", "uaq", "ام القيوين"], "cities": ["falaj al mualla", "فلج المعلا"]},
+        {"name": "Ras Al Khaimah", "ar": "رأس الخيمة", "codes": ["RK"], "aliases": ["ras al khaimah", "ras al khaima", "ras alkhaimah", "rak", "راس الخيمة"], "cities": ["al hamra", "الحمراء", "al nakheel rak", "khuzam", "julfar"]},
+        {"name": "Fujairah", "ar": "الفجيرة", "codes": ["FU"], "aliases": ["fujairah", "fujeirah", "al fujairah", "fujaira"], "cities": ["dibba al fujairah", "دبا الفجيرة", "masafi", "مسافي", "mirbah", "مربح"]}
+      ]
+    },
+    "SA": {
+      "name": "Saudi Arabia",
+      "aliases": ["sa", "ksa", "saudi", "saudi arabia", "kingdom of saudi arabia", "السعودية", "المملكة العربية السعودية"],
+      "regions": [
+        {"name": "Riyadh", "ar": "الرياض", "codes": ["01"], "aliases": ["riyadh", "riyad", "ar riyad", "riyadh region", "riyadh province"], "cities": ["al kharj", "kharj", "الخرج", "diriyah", "الدرعية", "majmaah", "المجمعة", "dawadmi", "الدوادمي", "zulfi", "الزلفي", "al quwayiyah", "القويعية", "wadi ad dawasir", "وادي الدواسر", "afif", "عفيف", "shaqra", "شقراء"]},
+        {"name": "Makkah", "ar": "مكة المكرمة", "codes": ["02"], "aliases": ["makkah", "mecca", "makka", "makkah region", "makkah al mukarramah", "mecca region", "منطقة مكة المكرمة", "مكة"], "cities": ["jeddah", "jedda", "jidda", "جدة", "جده", "taif", "al taif", "الطائف", "rabigh", "رابغ", "qunfudhah", "al qunfudhah", "القنفذة", "al lith", "الليث", "khulais", "خليص", "kamil"]},
+        {"name": "Madinah", "ar": "المدينة المنورة", "codes": ["03"], "aliases": ["madinah", "medina", "madina", "al madinah", "al madinah al munawwarah", "medina region", "المدينة"], "cities": ["yanbu", "yanbu al bahr", "ينبع", "al ula", "alula", "العلا", "badr", "بدر", "khaybar", "خيبر", "al hinakiyah", "الحناكية", "mahd al dhahab", "مهد الذهب"]},
+        {"name": "Eastern Province", "ar": "المنطقة الشرقية", "codes": ["04"], "aliases": ["eastern province", "eastern region", "eastern", "ash sharqiyah", "sharqiyah", "al sharqiyah", "الشرقية", "المنطقه الشرقيه"], "cities": ["dammam", "الدمام", "khobar", "al khobar", "الخبر", "dhahran", "الظهران", "jubail", "al jubail", "الجبيل", "al ahsa", "al hasa", "hofuf", "al hofuf", "الأحساء", "الاحساء", "الهفوف", "qatif", "al qatif", "القطيف", "hafar al batin", "حفر الباطن", "ras tanura", "رأس تنورة", "abqaiq", "بقيق", "khafji", "الخفجي", "nairyah", "النعيرية", "saihat", "سيهات"]},
+        {"name": "Qassim", "ar": "القصيم", "codes": ["05"], "aliases": ["qassim", "al qassim", "qasim", "al qasim", "gassim"], "cities": ["buraidah", "buraydah", "بريدة", "unaizah", "unayzah", "عنيزة", "ar rass", "al rass", "الرس", "al bukayriyah", "البكيرية", "al mithnab", "المذنب"]},
+        {"name": "Hail", "ar": "حائل", "codes": ["06"], "aliases": ["hail", "hayil", "haail", "حايل"], "cities": ["baqaa", "بقعاء", "al ghazalah", "الغزالة"]},
+        {"name": "Tabuk", "ar": "تبوك", "codes": ["07"], "aliases": ["tabuk", "tabouk", "tebuk"], "cities": ["duba", "ضباء", "umluj", "أملج", "al wajh", "الوجه", "tayma", "تيماء", "haql", "حقل"]},
+        {"name": "Northern Borders", "ar": "الحدود الشمالية", "codes": ["08"], "aliases": ["northern borders", "northern border", "al hudud ash shamaliyah", "northern frontier"], "cities": ["arar", "عرعر", "rafha", "رفحاء", "turaif", "طريف", "al uwayqilah", "العويقيلة"]},
+        {"name": "Jazan", "ar": "جازان", "codes": ["09"], "aliases": ["jazan", "jizan", "gizan", "jazan region", "جيزان"], "cities": ["sabya", "صبيا", "abu arish", "أبو عريش", "samtah", "صامطة", "farasan", "فرسان", "baish", "بيش", "ahad al masarihah", "أحد المسارحة"]},
+        {"name": "Najran", "ar": "نجران", "codes": ["10"], "aliases": ["najran", "nejran"], "cities": ["sharurah", "شرورة", "habuna", "حبونا", "badr al janub", "بدر الجنوب"]},
+        {"name": "Al Bahah", "ar": "الباحة", "codes": ["11"], "aliases": ["al bahah", "al baha", "baha", "bahah"], "cities": ["baljurashi", "بلجرشي", "al mikhwah", "المخواة", "al aqiq", "العقيق"]},
+        {"name": "Al Jawf", "ar": "الجوف", "codes": ["12"], "aliases": ["al jawf", "al jouf", "jouf", "jawf", "al jof"], "cities": ["sakaka", "سكاكا", "al qurayyat", "القريات", "dumat al jandal", "دومة الجندل", "tabarjal", "طبرجل"]},
+        {"name": "Asir", "ar": "عسير", "codes": ["14"], "aliases": ["asir", "aseer", "assir", "asir region"], "cities": ["abha", "أبها", "ابها", "khamis mushait", "khamis mushayt", "خميس مشيط", "bisha", "بيشة", "mahayil", "محايل عسير", "muhayil", "an namas", "النماص", "sarat abidah", "سراة عبيدة", "rijal almaa", "رجال ألمع"]}
+      ]
+    },
+    "KW": {
+      "name": "Kuwait",
+      "aliases": ["kw", "kuwait", "state of kuwait", "الكويت"],
+      "regions": [
+        {"name": "Al Asimah (Capital)", "ar": "العاصمة", "codes": ["KU"], "aliases": ["al asimah", "asimah", "capital", "capital governorate", "al asima", "kuwait city", "kuwait capital", "مدينة الكويت"], "cities": ["sharq", "شرق", "dasman", "دسمان", "shuwaikh", "الشويخ", "mirqab", "المرقاب", "salhiya", "الصالحية", "qibla", "القبلة", "kaifan", "كيفان", "shamiya", "الشامية", "yarmouk", "اليرموك", "rawda", "الروضة", "adailiya", "العديلية", "faiha", "الفيحاء", "nuzha", "النزهة", "qadsiya", "القادسية", "doha kuwait", "sulaibikhat", "الصليبيخات", "granada kuwait", "abdullah al salem", "ضاحية عبدالله السالم", "mansouriya", "المنصورية", "dasma", "الدسمة"]},
+        {"name": "Hawalli", "ar": "حولي", "codes": ["HA"], "aliases": ["hawalli", "hawally", "hawali"], "cities": ["salmiya", "salmiyah", "السالمية", "jabriya", "الجابرية", "rumaithiya", "الرميثية", "bayan", "بيان", "mishref", "مشرف", "salwa", "سلوى", "shaab", "الشعب", "surra", "السرة", "zahra", "الزهراء", "hittin", "حطين", "salam kuwait", "shuhada kuwait", "siddiq", "الصديق", "mubarak al abdullah"]},
+        {"name": "Farwaniya", "ar": "الفروانية", "codes": ["FA"], "aliases": ["farwaniya", "farwaniyah", "al farwaniyah", "farwania"], "cities": ["khaitan", "خيطان", "jleeb al shuyoukh", "jleeb", "جليب الشيوخ", "abraq khaitan", "أبرق خيطان", "ardiya", "العارضية", "rabia", "الرابية", "andalous", "الأندلس", "riggae", "الرقعي", "omariya", "العمرية", "rehab kuwait", "ashbeliah", "اشبيلية", "sabah al nasser", "صباح الناصر", "dhajeej", "الضجيج", "abdullah al mubarak", "عبدالله المبارك"]},
+        {"name": "Mubarak Al-Kabeer", "ar": "مبارك الكبير", "codes": ["MU"], "aliases": ["mubarak al kabeer", "mubarak al kabir", "mubarak alkabeer", "mubarak al-kabeer"], "cities": ["sabah al salem", "صباح السالم", "qurain", "القرين", "adan", "العدان", "qusour", "القصور", "messila", "المسيلة", "abu fatira", "أبو فطيرة", "fnaitees", "الفنيطيس", "abu al hasaniya", "أبو الحصانية", "masayel", "المسايل"]},
+        {"name": "Ahmadi", "ar": "الأحمدي", "codes": ["AH"], "aliases": ["ahmadi", "al ahmadi", "الاحمدي"], "cities": ["fahaheel", "الفحيحيل", "mangaf", "المنقف", "mahboula", "المهبولة", "fintas", "الفنطاس", "abu halifa", "أبو حليفة", "wafra", "الوفرة", "sabah al ahmad", "صباح الأحمد", "egaila", "العقيلة", "riqqa", "الرقة", "sabahiya", "الصباحية", "hadiya", "هدية", "fahad al ahmad", "فهد الأحمد", "zour", "الزور", "khiran", "الخيران", "jaber al ali", "جابر العلي"]},
+        {"name": "Jahra", "ar": "الجهراء", "codes": ["JA"], "aliases": ["jahra", "al jahra", "jahraa", "al jahrah"], "cities": ["saad al abdullah", "سعد العبدالله", "sulaibiya", "الصليبية", "naeem", "النعيم", "qasr", "القصر", "waha", "الواحة", "taima", "تيماء الجهراء", "oyoun", "العيون", "abdali", "العبدلي", "subiya", "الصبية", "amghara", "أمغرة", "kabd", "كبد"]}
+      ]
+    },
+    "QA": {
+      "name": "Qatar",
+      "aliases": ["qa", "qatar", "state of qatar", "قطر"],
+      "regions": [
+        {"name": "Qatar", "ar": "قطر", "codes": ["DA", "RA", "WA", "KH", "US", "ZA", "MS", "SH"], "aliases": ["qatar", "qatar whole country"], "cities": ["doha", "الدوحة", "al rayyan", "rayyan", "الريان", "al wakrah", "wakra", "الوكرة", "al khor", "الخور", "umm salal", "أم صلال", "al daayen", "الضعاين", "lusail", "لوسيل", "al shamal", "الشمال", "al shahaniya", "الشحانية", "mesaieed", "مسيعيد", "the pearl", "west bay", "al sadd", "السد", "al gharafa", "الغرافة", "al wukair", "الوكير", "madinat khalifa", "al hilal", "الهلال", "al thumama", "الثمامة"]}
+      ]
+    },
+    "BH": {
+      "name": "Bahrain",
+      "aliases": ["bh", "bahrain", "kingdom of bahrain", "البحرين"],
+      "regions": [
+        {"name": "Capital", "ar": "العاصمة", "codes": ["13"], "aliases": ["capital", "capital governorate", "al asimah", "asimah", "manama governorate"], "cities": ["manama", "المنامة", "juffair", "الجفير", "seef", "السيف", "adliya", "العدلية", "hoora", "الحورة", "gudaibiya", "القضيبية", "sanabis", "السنابس", "diplomatic area", "um al hassam", "أم الحصم", "tubli", "توبلي", "salmaniya", "السلمانية", "zinj", "الزنج"]},
+        {"name": "Muharraq", "ar": "المحرق", "codes": ["15"], "aliases": ["muharraq", "al muharraq", "muharaq"], "cities": ["amwaj", "amwaj islands", "أمواج", "busaiteen", "البسيتين", "hidd", "الحد", "arad", "عراد", "galali", "قلالي", "diyar al muharraq", "ديار المحرق", "samaheej", "سماهيج", "dair", "الدير"]},
+        {"name": "Northern", "ar": "الشمالية", "codes": ["17"], "aliases": ["northern", "northern governorate", "ash shamaliyah", "shamaliyah"], "cities": ["budaiya", "البديع", "hamad town", "مدينة حمد", "saar", "سار", "janabiyah", "الجنبية", "diraz", "الدراز", "jidhafs", "جدحفص", "karzakan", "كرزكان", "barbar", "باربار", "bani jamra", "بني جمرة", "malkiya", "المالكية", "maqaba", "مقابة"]},
+        {"name": "Southern", "ar": "الجنوبية", "codes": ["14"], "aliases": ["southern", "southern governorate", "al janubiyah", "janubiyah"], "cities": ["riffa", "الرفاع", "east riffa", "west riffa", "isa town", "مدينة عيسى", "awali", "عوالي", "zallaq", "الزلاق", "sakhir", "الصخير", "askar", "عسكر", "jaw", "جو", "durrat al bahrain", "درة البحرين", "sitra", "سترة", "hawar", "حوار"]}
+      ]
+    },
+    "OM": {
+      "name": "Oman",
+      "aliases": ["om", "oman", "sultanate of oman", "عمان", "سلطنة عمان"],
+      "regions": [
+        {"name": "Muscat", "ar": "مسقط", "codes": ["MA"], "aliases": ["muscat", "masqat", "maskat", "muscat governorate"], "cities": ["seeb", "al seeb", "السيب", "muttrah", "matrah", "مطرح", "bawshar", "bausher", "بوشر", "al amerat", "amerat", "العامرات", "qurayyat oman", "قريات", "al khoud", "الخوض", "al khuwair", "الخوير", "ruwi", "روي", "al mawaleh", "الموالح", "qurum", "القرم", "al ghubra", "الغبرة", "azaiba", "العذيبة", "madinat sultan qaboos", "al hail oman"]},
+        {"name": "Dhofar", "ar": "ظفار", "codes": ["ZU"], "aliases": ["dhofar", "dhufar", "zufar", "dhofar governorate"], "cities": ["salalah", "صلالة", "taqah", "طاقة", "mirbat", "مرباط", "thumrait", "ثمريت", "rakhyut", "رخيوت", "sadah", "سدح"]},
+        {"name": "Musandam", "ar": "مسندم", "codes": ["MU"], "aliases": ["musandam", "musandem"], "cities": ["khasab", "خصب", "bukha", "بخا", "dibba oman", "دبا البيعة", "madha", "مدحاء"]},
+        {"name": "Al Buraimi", "ar": "البريمي", "codes": ["BU"], "aliases": ["al buraimi", "buraimi", "al buraymi"], "cities": ["mahdah", "محضة", "al sunaynah", "السنينة"]},
+        {"name": "Ad Dakhiliyah", "ar": "الداخلية", "codes": ["DA"], "aliases": ["ad dakhiliyah", "dakhiliyah", "al dakhiliyah", "dakhliya", "interior"], "cities": ["nizwa", "نزوى", "bahla", "بهلاء", "samail", "سمائل", "izki", "إزكي", "adam oman", "أدم", "al hamra oman", "bidbid", "بدبد", "manah", "منح"]},
+        {"name": "North Al Batinah", "ar": "شمال الباطنة", "codes": ["BS"], "aliases": ["north al batinah", "north batinah", "al batinah north", "shamal al batinah"], "cities": ["sohar", "صحار", "shinas", "شناص", "liwa", "لوى", "saham", "صحم", "al khaburah", "الخابورة", "as suwayq", "suwaiq", "السويق"]},
+        {"name": "South Al Batinah", "ar": "جنوب الباطنة", "codes": ["BJ"], "aliases": ["south al batinah", "south batinah", "al batinah south", "janub al batinah"], "cities": ["rustaq", "ar rustaq", "الرستاق", "barka", "بركاء", "nakhal", "نخل عمان", "wadi al maawil", "وادي المعاول", "al awabi", "العوابي", "al musanaah", "المصنعة"]},
+        {"name": "South Ash Sharqiyah", "ar": "جنوب الشرقية", "codes": ["SJ"], "aliases": ["south ash sharqiyah", "south sharqiyah", "south al sharqiyah", "ash sharqiyah south", "janub ash sharqiyah"], "cities": ["sur", "sur oman", "صور", "jalan bani bu ali", "جعلان بني بو علي", "jalan bani bu hassan", "جعلان بني بو حسن", "masirah", "مصيرة", "al kamil wal wafi", "الكامل والوافي"]},
+        {"name": "North Ash Sharqiyah", "ar": "شمال الشرقية", "codes": ["SS"], "aliases": ["north ash sharqiyah", "north sharqiyah", "north al sharqiyah", "ash sharqiyah north", "shamal ash sharqiyah"], "cities": ["ibra", "إبراء", "al mudaybi", "المضيبي", "bidiyah", "بدية", "al qabil", "القابل", "wadi bani khalid", "وادي بني خالد", "dima wa al taeen", "دماء والطائيين"]},
+        {"name": "Ad Dhahirah", "ar": "الظاهرة", "codes": ["ZA"], "aliases": ["ad dhahirah", "dhahirah", "al dhahirah", "al dhahira"], "cities": ["ibri", "عبري", "yanqul", "ينقل", "dhank", "ضنك"]},
+        {"name": "Al Wusta", "ar": "الوسطى", "codes": ["WU"], "aliases": ["al wusta", "wusta", "al wusta governorate"], "cities": ["duqm", "الدقم", "haima", "هيماء", "mahout", "محوت", "al jazer", "الجازر"]}
+      ]
+    }
+  }
+}

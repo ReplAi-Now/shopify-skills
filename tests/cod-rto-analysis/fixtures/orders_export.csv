@@ -1,0 +1,16 @@
+Name,Email,Financial Status,Paid at,Fulfillment Status,Fulfilled at,Currency,Subtotal,Shipping,Taxes,Total,Discount Code,Discount Amount,Shipping Method,Created at,Lineitem quantity,Lineitem name,Lineitem price,Lineitem sku,Shipping City,Shipping Province,Shipping Country,Cancelled at,Payment Method,Refunded Amount,Id,Tags,Source,Phone,Shipping Province Name
+#1001,a@x.com,paid,,fulfilled,,EGP,400,0,0,400,,0,Standard,2026-10-05 10:00:00 +0300,1,Product A,400,A-1,Nasr City,C,EG,,Cash on Delivery (COD),0,,,web,,Cairo
+#1002,b@x.com,voided,,fulfilled,,EGP,800,0,0,800,,0,Standard,2026-10-05 12:00:00 +0300,1,Product B,800,B-1,October,SU,EG,2026-10-08 09:00:00 +0300,Cash on Delivery (COD),0,,,web,,6th of October
+#1003,c@x.com,pending,,fulfilled,,EGP,1200,0,0,1200,,0,Standard,2026-10-06 11:00:00 +0300,1,Product A,400,A-1,Dokki,GZ,EG,,Cash on Delivery (COD),0,,"RTO, vip",web,,الجيزة
+#1003,c@x.com,,,,,,,,,,,,,,1,Product B,800,B-1,,,,,,,,,,,
+#1004,b@x.com,paid,,fulfilled,,EGP,300,0,0,300,,0,Standard,2026-10-07 10:00:00 +0300,1,Product A,300,A-1,Haram,GZ,EG,,Cash on Delivery (COD),0,,,web,,Giza
+#1005,d@x.com,voided,,unfulfilled,,EGP,500,0,0,500,,0,Standard,2026-10-07 15:00:00 +0300,1,Product A,500,A-1,Maadi,C,EG,2026-10-07 18:00:00 +0300,Cash on Delivery (COD),0,,,web,,Cairo
+#1006,e@x.com,pending,,unfulfilled,,EGP,700,0,0,700,,0,Standard,2026-10-08 10:00:00 +0300,1,Product A,700,A-1,Smouha,ALX,EG,,Cash on Delivery (COD),0,,,web,,Alex
+#1007,f@x.com,pending,,fulfilled,,EGP,600,0,0,600,,0,Standard,2026-10-08 13:00:00 +0300,1,Product B,600,B-1,Heliopolis,C,EG,,Cash on Delivery (COD),0,,,web,,Cairo
+#1008,g@x.com,pending,,fulfilled,,EGP,950,0,0,950,,0,Standard,2026-10-09 10:00:00 +0300,1,Product B,950,B-1,New Cairo,C,EG,,Cash on Delivery (COD),0,,,web,,Cairo
+#1009,h@x.com,paid,,fulfilled,,EGP,700,0,0,700,,0,Standard,2026-10-09 12:00:00 +0300,1,Product A,700,A-1,Zamalek,C,EG,,Shopify Payments,0,,,web,,Cairo
+#1010,i@x.com,paid,,fulfilled,,EGP,250,0,0,250,,0,Standard,2026-10-10 10:00:00 +0300,1,Product A,250,A-1,Nowhere Town,,EG,,Cash on Delivery (COD),0,,,web,,
+#1011,j@x.com,paid,,fulfilled,,EGP,450,0,0,450,,0,Standard,2026-10-10 12:00:00 +0300,1,Product A,450,A-1,Sheikh Zayed,GZ,EG,,Cash on Delivery (COD),0,,,web,,Giza
+#1012,,pending,,fulfilled,,EGP,1500,0,0,1500,,0,Standard,2026-10-11 10:00:00 +0300,1,Product B,1500,B-1,Faisal,GZ,EG,2026-10-13 10:00:00 +0300,Cash on Delivery (COD),0,,,web,+20 100 123 4567,Giza
+#1013,a@x.com,paid,,fulfilled,,EGP,350,0,0,350,,0,Standard,2026-10-12 10:00:00 +0300,1,Product A,350,A-1,Nasr City,C,EG,,Cash on Delivery (COD),0,,,web,,Cairo
+#1014,k@x.com,pending,,fulfilled,,EGP,650,0,0,650,,0,Standard,2026-10-12 12:00:00 +0300,1,Product A,650,A-1,Mansoura,DK,EG,,Cash on Delivery (COD),0,,,web,,Dakahlia

@@ -1,0 +1,8 @@
+Name,Email,Financial Status,Paid at,Fulfillment Status,Fulfilled at,Currency,Subtotal,Shipping,Taxes,Total,Discount Code,Discount Amount,Shipping Method,Created at,Lineitem quantity,Lineitem name,Lineitem price,Lineitem sku,Shipping City,Shipping Province,Shipping Country,Cancelled at,Payment Method,Refunded Amount,Id,Tags,Source,Phone,Shipping Province Name
+#2001,x@x.com,paid,,fulfilled,,EGP,900,50,0,950,,100,,2026-10-01 10:00:00 +0300,1,Hoodie - Black / M,600,H-B-M,Cairo,C,EG,,Cash on Delivery (COD),0,,,web,,Cairo
+#2001,x@x.com,,,,,,,,,,,,,,2,Cap,200,C-1,,,,,,,,,,,
+#2002,x@x.com,paid,,fulfilled,,EGP,650,0,0,650,,0,,2026-10-02 10:00:00 +0300,1,Hoodie - Grey / L,650,H-G-L,Cairo,C,EG,,Shopify Payments,0,,,instagram,,Cairo
+#2003,x@x.com,voided,,fulfilled,,EGP,600,0,0,600,,0,,2026-10-03 10:00:00 +0300,1,Hoodie - Black / M,600,H-B-M,Cairo,C,EG,2026-10-06 10:00:00 +0300,Cash on Delivery (COD),0,,,web,,Cairo
+#2004,x@x.com,partially_refunded,,fulfilled,,EGP,250,0,0,250,,0,,2026-10-05 10:00:00 +0300,1,Cap,150,C-1,Cairo,C,EG,,Cash on Delivery (COD),150,,,web,,Cairo
+#2004,x@x.com,,,,,,,,,,,,,,2,Socks - White,50,S-W,,,,,,,,,,,
+#2005,x@x.com,pending,,unfulfilled,,EGP,300,0,0,300,,0,,2026-10-06 10:00:00 +0300,1,Cap,300,C-1,Cairo,C,EG,,Cash on Delivery (COD),0,,,web,,Cairo

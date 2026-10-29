@@ -9,9 +9,15 @@
     {
       "name": "shopify-skills",
       "source": "./",
-      "description": "Agent skills for Shopify store owners: calm replies to angry customers, product descriptions that sell, and more.",
+      "description": "Agent skills for Shopify store owners: catalog photos, product uploads, true profit, COD failures, returns, reordering, dead stock, weekly KPIs, angry customers and more.",
       "category": "productivity",
-      "keywords": ["shopify", "ecommerce", "customer-support", "copywriting", "skills"]
+      "keywords": [
+        "shopify",
+        "ecommerce",
+        "customer-support",
+        "copywriting",
+        "skills"
+      ]
     }
   ]
 }

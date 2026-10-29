@@ -1,0 +1,34 @@
+{
+ "store": "example-store.myshopify.com",
+ "store_url": "https://www.example-store.com",
+ "audited_at": "2026-10-29",
+ "languages": "en,ar",
+ "pages": [
+  {"type": "home", "url": "https://www.example-store.com/"},
+  {"type": "collection", "url": "https://www.example-store.com/collections/dresses"},
+  {"type": "product", "url": "https://www.example-store.com/products/linen-dress"},
+  {"type": "product", "url": "https://www.example-store.com/products/cotton-abaya"},
+  {"type": "product", "url": "https://www.example-store.com/products/denim-jacket"},
+  {"type": "cart", "url": "https://www.example-store.com/cart"}
+ ],
+ "speed": {},
+ "checks": [
+  {"id": "P6", "area": "product", "title": "Cash on delivery shown near Add to cart", "status": "fail",
+   "impact": "high", "effort": "low",
+   "evidence": {"url": "https://www.example-store.com/products/linen-dress", "seen": "COD is only mentioned in the FAQ page; nothing near the button on all 3 product pages"},
+   "fix": "Add a text block under Add to cart on the product template (duplicate theme): 'Cash on delivery available. Pay when your order arrives.' plus the Arabic line.",
+   "change_type": "theme"},
+  {"id": "P1", "area": "product", "title": "At least 4 photos, including one on a person", "status": "partial",
+   "impact": "medium", "effort": "medium",
+   "evidence": {"url": "https://www.example-store.com/products/denim-jacket", "seen": "2 photos, both flat lay; linen-dress has 5"},
+   "fix": "Add 2-3 on-model photos to the denim jacket and any product with fewer than 4 photos.",
+   "change_type": "manual"},
+  {"id": "E3", "area": "seo", "title": "Product images have alt text", "status": "fail",
+   "impact": "low", "effort": "low",
+   "evidence": {"url": "https://www.example-store.com/products/cotton-abaya", "seen": "4 of 4 images have empty alt"},
+   "fix": "Write short alt text per image (product, colour, view) via the connector in one confirmed batch.",
+   "change_type": "content"},
+  {"id": "M1", "area": "mobile", "title": "No sideways scrolling at 390 px", "status": "pass", "impact": "high"},
+  {"id": "C1", "area": "checkout", "title": "Guest checkout allowed", "status": "unknown", "note": "checkout page did not load in the browser tool; ask for a screenshot"}
+ ]
+}

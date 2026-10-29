@@ -6,7 +6,7 @@
 
 # Skills For Real Shopify Stores
 
-Free AI skills that do the store jobs you keep putting off: calming down angry customers, writing product pages that sell, and more on the way.
+Free AI skills that do the store jobs you keep putting off: calming down angry customers, writing product pages that sell, turning mannequin photos into catalog shots, finding your real profit, seeing where cash on delivery orders fail, and knowing what to reorder.
 
 They work in Claude (web and desktop app), Claude Code, and most other AI agents. Each skill is one short file you can read in two minutes, so you can see exactly what it does and change it to suit your store.
 
@@ -22,10 +22,20 @@ Pick one route. Installing the same skills twice gives you duplicates.
 1. Download the skills you want:
    - [angry-customer-reply.zip](https://github.com/ReplAi-Now/shopify-skills/releases/latest/download/angry-customer-reply.zip)
    - [product-descriptions.zip](https://github.com/ReplAi-Now/shopify-skills/releases/latest/download/product-descriptions.zip)
+   - [catalog-photoshoot.zip](https://github.com/ReplAi-Now/shopify-skills/releases/latest/download/catalog-photoshoot.zip)
+   - [shopify-catalog-upload.zip](https://github.com/ReplAi-Now/shopify-skills/releases/latest/download/shopify-catalog-upload.zip)
+   - [size-chart-builder.zip](https://github.com/ReplAi-Now/shopify-skills/releases/latest/download/size-chart-builder.zip)
+   - [conversion-optimiser.zip](https://github.com/ReplAi-Now/shopify-skills/releases/latest/download/conversion-optimiser.zip)
+   - [true-profit.zip](https://github.com/ReplAi-Now/shopify-skills/releases/latest/download/true-profit.zip)
+   - [cod-rto-analysis.zip](https://github.com/ReplAi-Now/shopify-skills/releases/latest/download/cod-rto-analysis.zip)
+   - [returns-reason-analysis.zip](https://github.com/ReplAi-Now/shopify-skills/releases/latest/download/returns-reason-analysis.zip)
+   - [demand-planner.zip](https://github.com/ReplAi-Now/shopify-skills/releases/latest/download/demand-planner.zip)
+   - [dead-stock-clearance.zip](https://github.com/ReplAi-Now/shopify-skills/releases/latest/download/dead-stock-clearance.zip)
+   - [weekly-kpi-digest.zip](https://github.com/ReplAi-Now/shopify-skills/releases/latest/download/weekly-kpi-digest.zip)
 2. In Claude, open [Customize > Skills](https://claude.ai/customize/skills) and upload each zip. Don't unzip it first.
 3. Check each skill is switched on.
 
-Done. Next time you paste in an angry email or ask for a product description, Claude picks up the skill by itself.
+Done. Next time you paste in an angry email, ask for a product description or ask what to reorder, Claude picks up the right skill by itself.
 
 Skills need a paid Claude plan (Pro, Max, Team or Enterprise).
 
@@ -91,6 +101,21 @@ Skills for talking to customers.
 Skills for your storefront.
 
 - **[product-descriptions](./skills/store/product-descriptions/SKILL.md)**: Write or rewrite product descriptions that sell, plus the SEO title and meta description.
+- **[catalog-photoshoot](./skills/store/catalog-photoshoot/SKILL.md)**: Turn mannequin, flat lay or raw product photos into consistent catalog photos with an AI model (Magnific or Higgsfield), with an automatic quality check.
+- **[shopify-catalog-upload](./skills/store/shopify-catalog-upload/SKILL.md)**: Upload finished photos to Shopify as complete listings (variants, SKUs, swatches, copy), or add new colours to existing products.
+- **[size-chart-builder](./skills/store/size-chart-builder/SKILL.md)**: Build accurate size charts in English or Arabic from supplier sheets or measurements, ready for the product page.
+- **[conversion-optimiser](./skills/store/conversion-optimiser/SKILL.md)**: Audit your store for what stops people buying, then fix it on a theme copy with your OK.
+
+### Operations
+
+Skills for the numbers behind the store. Each works from the Shopify connector or from your Shopify CSV exports.
+
+- **[true-profit](./skills/operations/true-profit/SKILL.md)**: Real profit per product and order after ads, shipping, COD fees, failed deliveries and returns.
+- **[cod-rto-analysis](./skills/operations/cod-rto-analysis/SKILL.md)**: Find where cash on delivery orders fail (governorate, courier, product, customer) and what it costs.
+- **[returns-reason-analysis](./skills/operations/returns-reason-analysis/SKILL.md)**: Find why customers return or exchange (English, Arabic and Franco text) and which products to fix.
+- **[demand-planner](./skills/operations/demand-planner/SKILL.md)**: When to reorder each variant and how much, balancing stockouts against cash tied up in stock.
+- **[dead-stock-clearance](./skills/operations/dead-stock-clearance/SKILL.md)**: Find slow and dead stock, the cash stuck in it, and a clearance plan you approve.
+- **[weekly-kpi-digest](./skills/operations/weekly-kpi-digest/SKILL.md)**: A one-page weekly snapshot of the store with three things to act on, on a schedule.
 
 ### Coming Soon
 
@@ -101,6 +126,12 @@ Skills for your storefront.
 - **collection-seo-audit**: Check a collection page for the SEO basics and fix what's missing.
 
 To hear when they land, watch this repo (Watch > Custom > Releases).
+
+## Setup And Your Data
+
+The store and operations skills ask a few setup questions the first time you use them (your currency, costs, couriers, photo style) and save the answers in a `replai-setup` folder next to your files, so you only answer once. In chat apps without files, the skill gives you a short setup card to paste next time.
+
+Your data stays between you, your AI and the tools you connected. The skills only read your store unless you approve an exact list of changes first, and nothing is ever deleted.
 
 ## Feedback
 

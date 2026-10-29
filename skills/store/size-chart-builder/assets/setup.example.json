@@ -1,0 +1,17 @@
+{
+  "skill": "size-chart-builder",
+  "version": "1.0.0",
+  "unit_default": "cm",
+  "show_both_units": true,
+  "languages": "en",
+  "arabic_digits": "western",
+  "size_system": "letters",
+  "garment_categories": "women-tops,women-bottoms,women-dresses",
+  "brand_fit": "true-to-size",
+  "measured_as": "garment",
+  "placement": "metafield",
+  "metafield_namespace": "custom",
+  "metafield_key": "size_chart",
+  "metafield_type": "multi_line_text_field",
+  "default_output": "html"
+}
