@@ -1,0 +1,6 @@
+Handle,Title,Vendor,Type,Tags,Option1 Name,Option1 Value,Variant SKU,Variant Inventory Qty,Variant Price,Variant Compare At Price,Cost per item,Status
+oxford-shirt,Oxford Shirt,Delta Mills,Shirts,,Size,L,SKU-A,99,120,,50,active
+linen-shirt,Linen Shirt,Delta Mills,Shirts,,Size,M,SKU-B,99,40,,40,active
+tote-bag,Tote Bag,Canal Leather,Bags,,Title,Default Title,SKU-C,99,80,,30,active
+camp-shirt,Camp Shirt,Canal Leather,Shirts,,Size,S,SKU-D,99,60,,25,active
+canvas-pouch,Canvas Pouch,Canal Leather,Bags,,Title,Default Title,SKU-E,99,45,,20,active

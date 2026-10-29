@@ -1,0 +1,17 @@
+Name,Email,Financial Status,Currency,Subtotal,Discount Amount,Created at,Lineitem quantity,Lineitem name,Lineitem price,Lineitem sku,Lineitem discount,Cancelled at,Payment Method,Refunded Amount,Tags,Phone
+#1000,a@x.com,paid,SAR,100,0,2026-08-01 10:00:00 +0300,1,Tee - M,100,TEE-M,0,,Credit card,0,,
+#1001,b@x.com,pending,SAR,200,0,2026-09-20 12:00:00 +0300,2,Tee - L,100,TEE-L,0,,Cash on Delivery (COD),0,delivered,
+#1002,a@x.com,paid,SAR,300,0,2026-09-21 12:00:00 +0300,1,Hoodie - M,300,HOOD-M,0,,Credit card,0,,
+#1003,c@x.com,paid,SAR,460,40,2026-10-10 09:00:00 +0300,1,Hoodie - M,300,HOOD-M,40,,Cash on Delivery (COD),0,delivered,
+#1003,,,,,,,2,Tee - M,100,TEE-M,0,,,,,
+#1004,,pending,SAR,100,0,2026-10-12 11:00:00 +0300,1,Tee - L,100,TEE-L,0,,Cash on Delivery (COD),0,rto,+20 100 123 4567
+#1005,b@x.com,refunded,SAR,200,0,2026-10-14 15:00:00 +0300,1,Cap,200,CAP,0,,Credit card,200,,
+#1006,d@x.com,voided,SAR,100,0,2026-10-15 12:00:00 +0300,1,Tee - M,100,TEE-M,0,2026-10-15 13:00:00 +0300,Cash on Delivery (COD),0,,
+#1007,e@x.com,pending,SAR,150,0,2026-10-16 22:30:00 +0000,3,Socks - Black,50,SOCK-B,0,,Cash on Delivery (COD),0,,
+#1008,a@x.com,paid,SAR,600,0,2026-10-18 10:00:00 +0300,2,Hoodie - M,300,HOOD-M,0,,Credit card,0,,
+#1009,f@x.com,paid,SAR,270,30,2026-10-19 10:00:00 +0300,3,Tee - M,100,TEE-M,30,,Cash on Delivery (COD),0,delivered,
+#1010,c@x.com,pending,SAR,100,0,2026-10-20 10:00:00 +0300,1,Tee - L,100,TEE-L,0,,Cash on Delivery (COD),0,refused,
+#1011,g@x.com,partially_refunded,SAR,300,0,2026-10-21 10:00:00 +0300,1,Hoodie - L,300,HOOD-L,0,,Credit card,100,,
+#1012,h@x.com,voided,SAR,200,0,2026-10-22 10:00:00 +0300,1,Cap,200,CAP,0,2026-10-22 12:00:00 +0300,Cash on Delivery (COD),0,,
+#1013,,pending,SAR,200,0,2026-10-23 23:30:00 +0300,1,Cap,200,CAP,0,,Cash on Delivery (COD),0,,01001234567
+#1014,a@x.com,paid,SAR,500,0,2026-10-24 10:00:00 +0300,1,Hoodie - M,500,HOOD-M,0,,Credit card,0,,

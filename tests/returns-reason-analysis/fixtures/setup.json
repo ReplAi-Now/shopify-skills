@@ -1,0 +1,3 @@
+{"skill": "returns-reason-analysis", "version": "1.0.0", "currency": "EGP", "return_window_days": 14,
+ "transit_buffer_days": 7, "min_units_sold": 5, "min_returns": 2, "default_return_shipping_cost": 40,
+ "exchange_reship_cost": 60, "handling_cost_per_return": 0}

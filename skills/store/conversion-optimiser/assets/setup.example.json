@@ -1,0 +1,18 @@
+{
+  "skill": "conversion-optimiser",
+  "version": "1.0.0",
+  "store_url": "",
+  "myshopify_domain": "",
+  "access_method": "connector",
+  "languages": "en",
+  "default_language": "en",
+  "market": "EG",
+  "currency": "EGP",
+  "priorities": "all",
+  "top_products_source": "best-selling",
+  "may_change": "content,alt_text,seo",
+  "theme_changes_allowed": false,
+  "brand_voice": "friendly, short sentences, no hype",
+  "arabic_style": "simple Egyptian Arabic",
+  "default_output": "dashboard"
+}

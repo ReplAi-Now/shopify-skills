@@ -1,0 +1,40 @@
+{%- comment -%}
+  ReplAi size chart snippet (free e-commerce skills pack).
+  Renders a size chart stored in a product metafield of type json, shaped like:
+  {"unit": "cm", "dir": "ltr", "title": "Size chart", "fit_note": "...",
+   "columns": ["Size", "Chest (cm)"], "rows": [["S", "92"], ["M", "96"]]}
+  Save as snippets/replai-size-chart.liquid ON A DUPLICATE THEME, then add a
+  Custom liquid block to the product template with:
+  {% render 'replai-size-chart', chart: product.metafields.custom.size_chart.value %}
+  (replace custom.size_chart with the namespace.key the merchant chose)
+{%- endcomment -%}
+{%- if chart and chart.rows.size > 0 -%}
+  {%- assign side = 'left' -%}
+  {%- if chart.dir == 'rtl' -%}{%- assign side = 'right' -%}{%- endif -%}
+  <div class="replai-size-chart" dir="{{ chart.dir | default: 'ltr' }}" style="max-width:100%;margin:16px 0">
+    {%- if chart.title != blank -%}<h3 style="margin:0 0 8px">{{ chart.title | escape }}</h3>{%- endif -%}
+    <div style="max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch">
+      <table style="border-collapse:collapse;width:100%;min-width:max-content;white-space:nowrap;font-size:14px">
+        <thead><tr>
+          {%- for col in chart.columns -%}
+            <th scope="col" style="{% if forloop.first %}position:sticky;{{ side }}:0;z-index:1;{% endif %}background:#f4f4f4;color:#111;padding:8px 12px;border:1px solid #ddd;text-align:center">{{ col | escape }}</th>
+          {%- endfor -%}
+        </tr></thead>
+        <tbody>
+          {%- for row in chart.rows -%}
+            <tr>
+              {%- for cell in row -%}
+                {%- if forloop.first -%}
+                  <th scope="row" style="position:sticky;{{ side }}:0;background:#fafafa;color:#111;padding:8px 12px;border:1px solid #ddd;text-align:center">{{ cell | escape }}</th>
+                {%- else -%}
+                  <td style="padding:8px 12px;border:1px solid #ddd;text-align:center">{{ cell | escape }}</td>
+                {%- endif -%}
+              {%- endfor -%}
+            </tr>
+          {%- endfor -%}
+        </tbody>
+      </table>
+    </div>
+    {%- if chart.fit_note != blank -%}<p style="margin:8px 0">{{ chart.fit_note | escape }}</p>{%- endif -%}
+  </div>
+{%- endif -%}

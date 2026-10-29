@@ -1,0 +1,11 @@
+Handle,Title,Vendor,Type,Tags,Option1 Name,Option1 Value,Variant SKU,Variant Inventory Qty,Variant Price,Variant Compare At Price,Cost per item,Status,Image Src
+classic-tee,Classic Tee,House,Tops,,Size,M,F,20,300,,120,active,https://example.com/a.jpg
+classic-tee,,,,,,,,,,,,,https://example.com/b.jpg
+striped-tee,Striped Tee,House,Tops,,Size,M,S1,30,250,,100,active,
+wide-trousers,Wide Trousers,House,Bottoms,,Size,32,S2,10,199,,80,active,
+wool-coat,Wool Coat,House,Tops,summer,Size,M,D1,12,400,450,150,active,
+basic-socks,Basic Socks,House,Tops,,Size,One size,D2,6,100,,85,active,
+statement-belt,Statement Belt,House,Accessories,,Title,Default Title,D3,40,150,,100,active,
+hair-clip,Hair Clip,House,Accessories,,Title,Default Title,D4,25,50,,48,active,
+linen-scarf,Linen Scarf,House,Accessories,,Title,Default Title,N1,10,100,,40,active,
+silk-tie,Silk Tie,House,Accessories,,Title,Default Title,Z,0,90,,30,active,

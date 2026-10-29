@@ -1,0 +1,4 @@
+Order Reference,Tracking Number,Status,COD Amount,Shipping Fees,Return Fees,COD Fee,Failure Reason
+1007,TRK7,Delivered,600,,,, 
+#1008,TRK8,Returned to shipper,950,55,45,5,Customer refused
+9999,TRK9,Delivered,100,50,,,

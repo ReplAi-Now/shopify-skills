@@ -1,0 +1,5 @@
+Handle,Title,Option1 Name,Option1 Value,Variant SKU,Variant Price,Cost per item,Status
+hoodie,Hoodie,Color,Black,H-B-M,600,300,active
+hoodie,,,Grey,H-G-L,650,320,
+cap,Cap,Title,Default Title,C-1,200,80,active
+socks,Socks,Color,White,S-W,50,,active

@@ -1,0 +1,16 @@
+Name,Created at,Cancelled at,Financial Status,Subtotal,Lineitem quantity,Lineitem name,Lineitem price,Lineitem sku
+#1001,2026-09-30 10:00:00 +0200,,paid,40,1,Linen Shirt - M,40,SKU-B
+#1002,2026-10-01 11:00:00 +0200,,paid,120,1,Oxford Shirt - L,120,SKU-A
+#1003,2026-10-02 12:00:00 +0200,,pending,80,1,Tote Bag,80,SKU-C
+#1004,2026-10-25 09:00:00 +0200,,paid,520,2,Oxford Shirt - L,120,SKU-A
+#1004,,,,,1,Linen Shirt - M,40,SKU-B
+#1004,,,,,3,Tote Bag,80,SKU-C
+#1005,2026-10-26 09:00:00 +0200,,paid,760,4,Oxford Shirt - L,120,SKU-A
+#1005,,,,,1,Linen Shirt - M,40,SKU-B
+#1005,,,,,3,Tote Bag,80,SKU-C
+#1006,2026-10-27 09:00:00 +0200,,paid,280,2,Oxford Shirt - L,120,SKU-A
+#1007,2026-10-27 15:00:00 +0200,,paid,40,1,Linen Shirt - M,40,SKU-B
+#1008,2026-10-27 18:00:00 +0200,,paid,120,2,Camp Shirt - S,60,SKU-D
+#1009,2026-10-28 10:00:00 +0200,,paid,520,4,Oxford Shirt - L,120,SKU-A
+#1009,,,,,1,Linen Shirt - M,40,SKU-B
+#1010,2026-10-28 11:00:00 +0200,2026-10-28 12:00:00 +0200,voided,600,5,Oxford Shirt - L,120,SKU-A

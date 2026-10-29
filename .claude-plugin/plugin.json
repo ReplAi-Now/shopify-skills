@@ -1,7 +1,7 @@
 {
   "name": "shopify-skills",
-  "version": "1.0.0",
-  "description": "Agent skills for Shopify store owners: calm replies to angry customers, product descriptions that sell, and more. Free, from ReplAi.",
+  "version": "1.1.0",
+  "description": "Agent skills for Shopify store owners: catalog photos and uploads, true profit, COD failures, returns, reordering, dead stock, weekly KPIs, angry customers and more. Free, from ReplAi.",
   "author": {
     "name": "ReplAi",
     "url": "https://www.replai.now"
@@ -9,9 +9,28 @@
   "homepage": "https://www.replai.now",
   "repository": "https://github.com/ReplAi-Now/shopify-skills",
   "license": "MIT",
-  "keywords": ["shopify", "ecommerce", "customer-support", "copywriting", "skills"],
+  "keywords": [
+    "analytics",
+    "cash-on-delivery",
+    "copywriting",
+    "customer-support",
+    "ecommerce",
+    "inventory",
+    "shopify",
+    "skills"
+  ],
   "skills": [
     "./skills/support/angry-customer-reply",
-    "./skills/store/product-descriptions"
+    "./skills/store/product-descriptions",
+    "./skills/store/catalog-photoshoot",
+    "./skills/store/shopify-catalog-upload",
+    "./skills/store/size-chart-builder",
+    "./skills/store/conversion-optimiser",
+    "./skills/operations/true-profit",
+    "./skills/operations/cod-rto-analysis",
+    "./skills/operations/returns-reason-analysis",
+    "./skills/operations/demand-planner",
+    "./skills/operations/dead-stock-clearance",
+    "./skills/operations/weekly-kpi-digest"
   ]
 }

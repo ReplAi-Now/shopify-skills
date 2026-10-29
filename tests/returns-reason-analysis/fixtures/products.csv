@@ -1,0 +1,6 @@
+Handle,Title,Option1 Value,Option2 Value,Variant SKU,Cost per item
+linen-shirt,Linen Shirt,M,White,LS-M-W,200
+linen-shirt,,L,White,LS-L-W,200
+maxi-dress,Maxi Dress,S,Rose,MD-S-R,300
+maxi-dress,,M,Rose,MD-M-R,300
+tote-bag,Tote Bag,Default Title,,TB,

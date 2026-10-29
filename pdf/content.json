@@ -1,0 +1,306 @@
+{
+  "pack_title": "The free e-commerce skills pack",
+  "pack_tagline": "Ten AI skills that take real work off an e-commerce team's plate: photos, listings, profit, cash on delivery, stock and conversion. Install one in a minute, answer a few setup questions once, and reuse it every week.",
+  "skills": [
+    {
+      "slug": "catalog-photoshoot",
+      "title": "Catalog photos from a *mannequin shot*",
+      "tagline": "Turn raw product photos into a consistent, professional catalog shoot with the same AI model every time.",
+      "category": "Content",
+      "does": [
+        "Replaces the mannequin, hanger or flat lay with a real-looking model wearing the identical garment",
+        "Handles non-clothing too: a model holding your perfume or phone case, or clean studio and lifestyle packshots",
+        "Keeps one house model, background and light across every shoot, so the store looks like one brand",
+        "Compares every result with your original photo and redoes anything that changed the product"
+      ],
+      "needs": ["Magnific or Higgsfield connector", "Your product photos", "Image credits"],
+      "setup": [
+        "What you sell and the model's look: gender, age, body type, skin tone, hair",
+        "Modesty level, including a hijab option, and default footwear",
+        "Your house model: pick from 4 generated faces or upload your own (with consent)",
+        "Default background, photo shape and a credit limit per run"
+      ],
+      "try": [
+        "Here is my folder of new arrivals. Make catalog photos for all of them.",
+        "Put this abaya on our house model, front and back, white background.",
+        "Make a lifestyle shot of this perfume on a marble bathroom shelf."
+      ],
+      "get": [
+        "Store-ready images named by colour and view (black-front.png)",
+        "A quality report: what was redone and why",
+        "An optional hand-off to the Shopify upload skill"
+      ],
+      "safety": "Only your own photos and faces you have consent for. Modest and kids rules are enforced on every image. Credits are quoted before big runs."
+    },
+    {
+      "slug": "shopify-catalog-upload",
+      "title": "From photo folder to *live listings*",
+      "tagline": "Upload finished product photos to Shopify as complete, correct listings, or add new colours to products you already sell.",
+      "category": "Catalog",
+      "does": [
+        "Creates one product per folder with every colour and size as a variant, photos linked to each colour",
+        "Writes titles and descriptions from the photos, in English, Arabic or both",
+        "Numbers SKUs in your store's own pattern and links colour swatches so they show on collection pages",
+        "Builds each product as a draft, checks it, and only then publishes it"
+      ],
+      "needs": ["Shopify connector with write access", "A folder of photos", "Prices, sizes and stock"],
+      "setup": [
+        "Confirms your store, then reads your recent products to detect your SKU and title style",
+        "Charge taxes, sell when out of stock, and which sales channels to publish to",
+        "Copy language and brand voice",
+        "Go live after checks, or leave as drafts for you to review"
+      ],
+      "try": [
+        "Upload the products in this folder. Prices and stock are in this sheet.",
+        "These are two new colours of the Linen Midi Dress. Add them as variants.",
+        "Give me a sheet to fill in with prices and sizes for these products."
+      ],
+      "get": [
+        "Live (or draft) products with variants, SKUs, photos, swatches and collections",
+        "A store link and admin link for every product",
+        "An upload log you can rerun safely without duplicates"
+      ],
+      "safety": "Nothing is written until you approve the full plan. Products stay hidden until verified. Nothing is ever deleted."
+    },
+    {
+      "slug": "cod-rto-analysis",
+      "title": "Find where cash on delivery *goes wrong*",
+      "tagline": "See which areas, couriers, products and customers refuse or return COD orders, what it costs you, and what to change.",
+      "category": "Operations",
+      "does": [
+        "Groups COD orders by governorate and city (English, Arabic and Franco spellings), courier, product, order value and customer history",
+        "Calculates delivery success, failure rate and money lost to failed deliveries",
+        "Reads optional courier exports from any courier to get real statuses and fees",
+        "Turns the numbers into actions, like deposits for one area or confirming orders above a value"
+      ],
+      "needs": ["Shopify connector or an orders export", "Optional: courier CSV exports"],
+      "setup": [
+        "Your couriers, and how you mark a failed or refused order in Shopify",
+        "The cost of one failed delivery, if no courier file has it",
+        "COD orders only or all orders, and the minimum sample before ranking",
+        "Report, dashboard or spreadsheet"
+      ],
+      "try": [
+        "Analyse my COD failures for the last 3 months. Here is my Bosta export too.",
+        "Which governorates should I ask for a deposit?",
+        "How much did failed deliveries cost me last month?"
+      ],
+      "get": [
+        "The worst areas and segments, ranked only when the sample is big enough",
+        "The cost of failed deliveries per month",
+        "Concrete actions with an estimated saving, clearly labelled as estimates"
+      ],
+      "safety": "Read only. Nothing in your store changes. Estimates always state their assumptions."
+    },
+    {
+      "slug": "true-profit",
+      "title": "What every product *really* earns you",
+      "tagline": "Real profit per product, order and channel after ads, shipping, COD fees, failed deliveries, returns and payment fees.",
+      "category": "Finance",
+      "does": [
+        "Combines Shopify orders with Meta, TikTok and Google Ads exports, courier files and supplier invoices",
+        "Splits ad spend to products by your campaigns, or by revenue share when campaigns are mixed",
+        "Shows contribution profit, margin and break-even ROAS for every product",
+        "Flags the bestsellers that actually lose money"
+      ],
+      "needs": ["Shopify connector or an orders export", "Product costs (Shopify or a sheet)", "Optional: ads and courier exports, supplier invoices"],
+      "setup": [
+        "Where your product costs live and whether prices include VAT",
+        "Payment fees, courier COD fees, shipping and packaging costs",
+        "Optional fixed monthly costs",
+        "How to split ad spend, and the exchange rate if your ad account uses another currency"
+      ],
+      "try": [
+        "Here are my Meta and TikTok exports for October. Which products make money?",
+        "What is my break-even ROAS per product?",
+        "Read these supplier invoices and update my product costs."
+      ],
+      "get": [
+        "Profit per product, per order and per channel",
+        "A list of bestsellers that lose money, with why",
+        "A dashboard where you can test new prices, ad budgets and costs"
+      ],
+      "safety": "Read only. Products without a cost show as unknown, never as zero. Every assumption is written down."
+    },
+    {
+      "slug": "weekly-kpi-digest",
+      "title": "Your business on *one page*, every week",
+      "tagline": "A weekly snapshot of sales, customers, COD delivery, returns and stock, compared with last week, with three things to act on.",
+      "category": "Reporting",
+      "does": [
+        "Tracks net sales, orders, average order value, new vs returning customers and top and bottom products",
+        "Follows COD share, delivery success, refunds and stock that is about to run out",
+        "Compares with last week and four weeks ago, and flags real changes only",
+        "Runs on a schedule in agents that support it, with no questions asked"
+      ],
+      "needs": ["Shopify connector or an orders export", "Optional: inventory export"],
+      "setup": [
+        "Timezone and the day your week starts",
+        "Which KPIs to show, and your weekly targets",
+        "How you record a failed COD delivery",
+        "Format, language, delivery (file, chat or email draft) and the weekly schedule"
+      ],
+      "try": [
+        "Give me last week's digest.",
+        "Set this up to run every Saturday at 9.",
+        "Why did net sales drop this week?"
+      ],
+      "get": [
+        "A one-page report, dashboard or spreadsheet",
+        "Week-over-week changes that matter, with plain explanations",
+        "Exactly three things to act on"
+      ],
+      "safety": "Read only. Missing data, like sessions, is shown as missing, never estimated. Emails are drafts until you send them."
+    },
+    {
+      "slug": "size-chart-builder",
+      "title": "Size charts customers *can trust*",
+      "tagline": "Build accurate, bilingual size charts from supplier sheets or your own measurements, ready for the product page.",
+      "category": "Catalog",
+      "does": [
+        "Reads supplier spec sheets, photos of measured garments or numbers you type",
+        "Checks for mistakes: sizes that shrink, missing sizes and uneven grading",
+        "Converts centimetres and inches, and turns flat garment measurements into body guidance",
+        "Renders a mobile-friendly table in English, Arabic (right to left) or both"
+      ],
+      "needs": ["Your measurements or supplier sheet", "Optional: Shopify connector to place the chart"],
+      "setup": [
+        "Main unit, languages and Arabic digit style",
+        "Size labels you use and the categories you sell",
+        "How your brand fits, and whether numbers describe the garment or the body",
+        "Where charts live: description, a shared page, a metafield or an app"
+      ],
+      "try": [
+        "Here is the factory spec sheet. Make a size chart for this dress in English and Arabic.",
+        "Check this size chart for mistakes.",
+        "Add this chart to all products in the Dresses collection."
+      ],
+      "get": [
+        "A clean HTML size chart with a how-to-measure guide and fit note",
+        "A list of problems found in your numbers",
+        "The chart placed in your store, only after you approve"
+      ],
+      "safety": "Store changes only after you confirm the exact list. Standard tables are labelled as starting points, not truth."
+    },
+    {
+      "slug": "returns-reason-analysis",
+      "title": "Why customers *send it back*",
+      "tagline": "Turn return notes in English, Arabic and Franco-Arabic into a clear list of products to fix and how.",
+      "category": "Operations",
+      "does": [
+        "Reads Shopify returns, refunds, order notes and returns app or support chat exports",
+        "Sorts reasons like too small, too large, quality, not as pictured, wrong item and late delivery",
+        "Calculates return rates per product, size and colour, and the money lost",
+        "Keeps refused COD orders separate from real returns"
+      ],
+      "needs": ["Shopify connector or an orders export", "Optional: returns app or chat exports"],
+      "setup": [
+        "Your return window, and how you mark returns, exchanges and refused orders",
+        "What a return shipment and an exchange cost you",
+        "Reasons or customer words you want tracked differently",
+        "Minimum sales before judging a product, format and language"
+      ],
+      "try": [
+        "Why are customers returning the oversized hoodie?",
+        "Which products should I fix first to cut returns?",
+        "Analyse these return notes from WhatsApp."
+      ],
+      "get": [
+        "The top products to fix, with the specific fix (size chart, photos, supplier quality)",
+        "Return rates by product, size and colour",
+        "Trends over time, and exchanges vs refunds"
+      ],
+      "safety": "Read only. Small samples are not ranked. Reasons the skill is unsure about are confirmed with you."
+    },
+    {
+      "slug": "demand-planner",
+      "title": "Reorder at the right time, *in the right amount*",
+      "tagline": "Predicts demand for every variant and tells you when to reorder and how much, without tying up more cash than needed.",
+      "category": "Inventory",
+      "does": [
+        "Reads your sales and stock, weighting recent weeks more and skipping days you were out of stock",
+        "Plans for Ramadan, Eid and White Friday when there is enough history",
+        "Uses your supplier lead time, minimum order and case pack to size each order",
+        "Shows the trade-off between fewer stockouts and cash tied in stock"
+      ],
+      "needs": ["Shopify connector or orders and inventory exports", "Unit costs", "Supplier lead times"],
+      "setup": [
+        "Supplier lead time, how reliable it is, and how often you reorder",
+        "How often you want to have stock when a customer orders (service level)",
+        "Minimum order quantities and case packs",
+        "Where unit costs live, and your output format"
+      ],
+      "try": [
+        "What do I need to reorder this week?",
+        "Plan my stock for Ramadan.",
+        "How much cash do I have tied up in stock?"
+      ],
+      "get": [
+        "A reorder list: what, when, how much and the cash needed",
+        "Items at risk of running out, with their stockout dates",
+        "A dashboard where you can change lead time and service level"
+      ],
+      "safety": "Read only. New products and short histories are flagged as estimates. Missing costs show as unknown."
+    },
+    {
+      "slug": "conversion-optimiser",
+      "title": "Turn more visitors into *orders*",
+      "tagline": "Audits your storefront for what stops people buying, then fixes it on a copy of your theme with your OK.",
+      "category": "Growth",
+      "does": [
+        "Checks speed, mobile layout, product pages, trust signals, checkout friction, navigation, SEO and Arabic quality",
+        "Shows evidence for every problem and ranks fixes by impact and effort",
+        "Fixes theme issues on a duplicate theme you preview before anything goes live",
+        "Edits content like descriptions and alt text in small batches you approve"
+      ],
+      "needs": ["Your store URL", "Optional: Shopify connector or Shopify CLI for fixes"],
+      "setup": [
+        "Store URL, languages, main market and currency",
+        "How changes can be made: CLI, connector or manual steps for you",
+        "What it may change, and what to focus on first",
+        "Brand voice, Arabic style and report format"
+      ],
+      "try": [
+        "Audit my store for conversion problems.",
+        "Fix the top five issues on a copy of my theme.",
+        "Is my product page clear about delivery time and COD?"
+      ],
+      "get": [
+        "A prioritised fix list with a health score per area",
+        "A preview link of the fixed theme copy",
+        "A change log you can roll back"
+      ],
+      "safety": "Never edits your live theme. Every batch of changes needs your yes. Every change is logged for rollback."
+    },
+    {
+      "slug": "dead-stock-clearance",
+      "title": "Free the cash stuck in *slow stock*",
+      "tagline": "Finds slow and dead stock and the cash locked in it, then plans how to clear it without killing your margin.",
+      "category": "Inventory",
+      "does": [
+        "Classifies every variant as healthy, slow or dead by last sale, days of cover and sell-through",
+        "Shows the cash stuck in slow and dead stock",
+        "Proposes a tactic per item: markdown, bundle with a bestseller, free gift, clearance collection or liquidation",
+        "Keeps every markdown above your minimum margin"
+      ],
+      "needs": ["Shopify connector or orders, products and inventory exports", "Unit costs"],
+      "setup": [
+        "When an item counts as slow and when it counts as dead",
+        "Your lowest acceptable margin, and whether to allow below-cost clearance",
+        "Markdown steps, price rounding and the tactics you allow",
+        "Clearance tag and collection names, and your output format"
+      ],
+      "try": [
+        "What stock is not selling, and how much cash is stuck in it?",
+        "Plan a clearance for items with no sale in 90 days.",
+        "Apply the markdowns we agreed on."
+      ],
+      "get": [
+        "A clearance plan with the cash you can recover",
+        "A change list (prices, tags, collections) you review before anything happens",
+        "A rollback file with the old values"
+      ],
+      "safety": "No store change without your yes on the exact list. Old prices are saved before any change, so it can be undone."
+    }
+  ]
+}

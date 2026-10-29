@@ -1,0 +1,22 @@
+{
+ "skill": "demand-planner",
+ "version": "1.0.0",
+ "currency": "EGP",
+ "timezone": "Africa/Cairo",
+ "language": "en",
+ "output": "dashboard",
+ "data_source": "exports",
+ "cost_source": "shopify_cost_per_item",
+ "default_lead_time_days": 14,
+ "lead_time_sd_days": 0,
+ "review_period_days": 7,
+ "service_level_pct": 95,
+ "default_moq": 0,
+ "default_case_pack": 1,
+ "history_days": 90,
+ "half_life_days": 30,
+ "min_history_days": 28,
+ "seasonality": "auto",
+ "include_drafts": false,
+ "suppliers_file": ""
+}

@@ -1,0 +1,17 @@
+{
+  "skill": "shopify-catalog-upload",
+  "version": "1.0.0",
+  "shop_domain": "your-store.myshopify.com",
+  "currency": "EGP",
+  "sku_prefix": "ABC",
+  "sku_pattern": "<prefix>-<number>-<n>",
+  "charge_taxes": false,
+  "continue_selling_when_out_of_stock": false,
+  "sales_channels": ["Online Store", "Facebook & Instagram"],
+  "copy_languages": ["en"],
+  "title_style": "short descriptive, no colour when several colours",
+  "brand_voice": "clear and warm, 2-3 sentences plus a short bullet list of visible details",
+  "default_vendor": "",
+  "go_live_after_verification": true,
+  "inventory_location": "primary"
+}

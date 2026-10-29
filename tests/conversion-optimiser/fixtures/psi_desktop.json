@@ -1,0 +1,13 @@
+{
+ "id": "https://demo-store.example/",
+ "lighthouseResult": {
+  "requestedUrl": "https://demo-store.example/",
+  "configSettings": {"formFactor": "desktop"},
+  "categories": {"performance": {"score": 0.91}},
+  "audits": {
+   "largest-contentful-paint": {"numericValue": 1400},
+   "cumulative-layout-shift": {"numericValue": 0.01},
+   "total-blocking-time": {"numericValue": 90}
+  }
+ }
+}

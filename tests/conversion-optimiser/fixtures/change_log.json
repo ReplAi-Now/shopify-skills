@@ -1,0 +1,14 @@
+{
+ "store": "demo-store.myshopify.com",
+ "previous_live_theme_id": "gid://shopify/OnlineStoreTheme/111",
+ "batches": [
+  {"batch": 1, "approved_at": "2026-10-29T10:00", "approved_text": "yes", "changes": [
+   {"resource": "product", "id": "gid://shopify/Product/1", "title": "Shirt", "field": "descriptionHtml", "before": "<p>a</p>", "after": "<p>b</p>", "status": "applied"},
+   {"resource": "media_image", "id": "gid://shopify/MediaImage/9", "title": "Shirt front", "field": "alt", "before": "", "after": "White linen shirt, front", "status": "applied"}
+  ]},
+  {"batch": 2, "approved_at": "2026-10-29T11:00", "approved_text": "yes go", "changes": [
+   {"resource": "shop_policy", "id": "REFUND_POLICY", "field": "body", "before": "old policy", "after": "new policy", "status": "applied"},
+   {"resource": "product", "id": "gid://shopify/Product/2", "field": "seo.title", "before": "x", "after": "y", "status": "failed"}
+  ]}
+ ]
+}

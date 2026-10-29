@@ -1,0 +1,14 @@
+Name,Financial Status,Created at,Cancelled at,Subtotal,Refunded Amount,Lineitem quantity,Lineitem name,Lineitem price,Lineitem sku,Lineitem discount,Vendor,Tags,Notes
+#2001,partially_refunded,2026-09-02 10:00:00 +0200,,3600,1800,4,Linen Shirt - M / White,500,LS-M-W,0,Supplier A,,
+#2001,,,,,,2,Maxi Dress - S / Rose,800,MD-S-R,0,Supplier B,,
+#2002,partially_refunded,2026-09-05 10:00:00 +0200,,2100,500,3,Linen Shirt - L / White,500,LS-L-W,0,Supplier A,exchange,
+#2002,,,,,,2,Tote Bag,300,TB,0,Supplier A,,
+#2003,partially_refunded,2026-09-10 10:00:00 +0200,,3400,800,2,Linen Shirt - M / White,500,LS-M-W,0,Supplier A,,
+#2003,,,,,,3,Maxi Dress - M / Rose,800,MD-M-R,0,Supplier B,,
+#2004,partially_refunded,2026-09-15 10:00:00 +0200,,1900,800,2,Maxi Dress - S / Rose,800,MD-S-R,0,Supplier B,,
+#2004,,,,,,1,Tote Bag,300,TB,0,Supplier A,,
+#2005,voided,2026-09-20 10:00:00 +0200,2026-09-20 12:00:00 +0200,500,0,1,Linen Shirt - L / White,500,LS-L-W,0,Supplier A,,
+#2006,voided,2026-09-25 10:00:00 +0200,2026-09-28 12:00:00 +0200,1300,0,1,Linen Shirt - M / White,500,LS-M-W,0,Supplier A,refused,
+#2006,,,,,,1,Maxi Dress - M / Rose,800,MD-M-R,0,Supplier B,,
+#2007,partially_refunded,2026-08-20 10:00:00 +0200,,1000,500,2,Linen Shirt - M / White,500,LS-M-W,0,Supplier A,,too small
+#2008,paid,2026-10-20 10:00:00 +0200,,800,0,1,Maxi Dress - S / Rose,800,MD-S-R,0,Supplier B,,

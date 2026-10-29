@@ -1,0 +1,15 @@
+{
+ "currency": "EGP",
+ "gateway_fee_pct": 3,
+ "gateway_fee_fixed": 2,
+ "cod_fee_pct": 1,
+ "cod_fee_fixed": 0,
+ "shipping_cost_per_order": 60,
+ "return_shipping_per_order": 50,
+ "packaging_cost_per_order": 10,
+ "fixed_monthly_costs": 300,
+ "fx_rates": {
+  "USD": 50
+ },
+ "bestseller_top_n": 2
+}

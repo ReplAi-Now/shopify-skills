@@ -1,0 +1,7 @@
+Name,Email,Financial Status,Paid at,Fulfillment Status,Fulfilled at,Currency,Subtotal,Shipping,Taxes,Total,Discount Code,Discount Amount,Shipping Method,Created at,Lineitem quantity,Lineitem name,Lineitem price,Lineitem sku,Shipping City,Shipping Province,Shipping Country,Cancelled at,Payment Method,Refunded Amount,Id,Tags,Source,Phone,Shipping Province Name
+#200,s0@x.com,pending,,fulfilled,,,,,,500,,,,2026-10-01 10:00:00 +0300,1,Product A,500,,Maadi,C,EG,,Cash on Delivery (COD),,,,,,Cairo
+#201,s1@x.com,pending,,fulfilled,,,,,,500,,,,2026-10-02 10:00:00 +0300,1,Product A,500,,Maadi,C,EG,,Cash on Delivery (COD),,,,,,Cairo
+#202,s2@x.com,pending,,fulfilled,,,,,,500,,,,2026-10-03 10:00:00 +0300,1,Product A,500,,Maadi,C,EG,,Cash on Delivery (COD),,,,,,Cairo
+#203,s3@x.com,pending,,fulfilled,,,,,,500,,,,2026-10-04 10:00:00 +0300,1,Product A,500,,Maadi,C,EG,,Cash on Delivery (COD),,,,,,Cairo
+#204,s4@x.com,pending,,fulfilled,,,,,,500,,,,2026-10-05 10:00:00 +0300,1,Product A,500,,Maadi,C,EG,,Cash on Delivery (COD),,,,,,Cairo
+#205,s5@x.com,pending,,fulfilled,,,,,,500,,,,2026-10-06 10:00:00 +0300,1,Product A,500,,Maadi,C,EG,,Cash on Delivery (COD),,,,,,Cairo

@@ -1,0 +1,187 @@
+{
+ "about": "Shopping windows for demand seasonality, 2024-2028. Islamic dates follow the Umm al-Qura calendar and moon sighting announcements; 'expected' rows can move by one day when the moon is sighted, so check the official announcement close to the date and edit this file if needed. Ramadan window = first day of Ramadan to 11 days before Eid al Fitr. Eid al Fitr window = 10 days before Eid to 2 days after. Eid al Adha window = 10 days before Eid to 3 days after. White Friday window = 7 days before Black Friday (last Friday of November) to the Monday after.",
+ "ramadan_first_day": {
+  "2024": "2024-03-11",
+  "2025": "2025-03-01",
+  "2026": "2026-02-18",
+  "2027": "2027-02-08",
+  "2028": "2028-01-28"
+ },
+ "events": [
+  {
+   "event": "ramadan",
+   "year": 2024,
+   "label": "Ramadan",
+   "start": "2024-03-11",
+   "end": "2024-03-30",
+   "status": "confirmed"
+  },
+  {
+   "event": "eid_al_fitr",
+   "year": 2024,
+   "label": "Eid al Fitr shopping",
+   "start": "2024-03-31",
+   "end": "2024-04-12",
+   "status": "confirmed",
+   "eid_day": "2024-04-10"
+  },
+  {
+   "event": "eid_al_adha",
+   "year": 2024,
+   "label": "Eid al Adha shopping",
+   "start": "2024-06-06",
+   "end": "2024-06-19",
+   "status": "confirmed",
+   "eid_day": "2024-06-16"
+  },
+  {
+   "event": "white_friday",
+   "year": 2024,
+   "label": "White Friday / Black Friday",
+   "start": "2024-11-22",
+   "end": "2024-12-02",
+   "status": "confirmed",
+   "friday": "2024-11-29"
+  },
+  {
+   "event": "ramadan",
+   "year": 2025,
+   "label": "Ramadan",
+   "start": "2025-03-01",
+   "end": "2025-03-19",
+   "status": "confirmed"
+  },
+  {
+   "event": "eid_al_fitr",
+   "year": 2025,
+   "label": "Eid al Fitr shopping",
+   "start": "2025-03-20",
+   "end": "2025-04-01",
+   "status": "confirmed",
+   "eid_day": "2025-03-30"
+  },
+  {
+   "event": "eid_al_adha",
+   "year": 2025,
+   "label": "Eid al Adha shopping",
+   "start": "2025-05-27",
+   "end": "2025-06-09",
+   "status": "confirmed",
+   "eid_day": "2025-06-06"
+  },
+  {
+   "event": "white_friday",
+   "year": 2025,
+   "label": "White Friday / Black Friday",
+   "start": "2025-11-21",
+   "end": "2025-12-01",
+   "status": "confirmed",
+   "friday": "2025-11-28"
+  },
+  {
+   "event": "ramadan",
+   "year": 2026,
+   "label": "Ramadan",
+   "start": "2026-02-18",
+   "end": "2026-03-09",
+   "status": "confirmed"
+  },
+  {
+   "event": "eid_al_fitr",
+   "year": 2026,
+   "label": "Eid al Fitr shopping",
+   "start": "2026-03-10",
+   "end": "2026-03-22",
+   "status": "confirmed",
+   "eid_day": "2026-03-20"
+  },
+  {
+   "event": "eid_al_adha",
+   "year": 2026,
+   "label": "Eid al Adha shopping",
+   "start": "2026-05-17",
+   "end": "2026-05-30",
+   "status": "confirmed",
+   "eid_day": "2026-05-27"
+  },
+  {
+   "event": "white_friday",
+   "year": 2026,
+   "label": "White Friday / Black Friday",
+   "start": "2026-11-20",
+   "end": "2026-11-30",
+   "status": "confirmed",
+   "friday": "2026-11-27"
+  },
+  {
+   "event": "ramadan",
+   "year": 2027,
+   "label": "Ramadan",
+   "start": "2027-02-08",
+   "end": "2027-02-26",
+   "status": "expected"
+  },
+  {
+   "event": "eid_al_fitr",
+   "year": 2027,
+   "label": "Eid al Fitr shopping",
+   "start": "2027-02-27",
+   "end": "2027-03-11",
+   "status": "expected",
+   "eid_day": "2027-03-09"
+  },
+  {
+   "event": "eid_al_adha",
+   "year": 2027,
+   "label": "Eid al Adha shopping",
+   "start": "2027-05-06",
+   "end": "2027-05-19",
+   "status": "expected",
+   "eid_day": "2027-05-16"
+  },
+  {
+   "event": "white_friday",
+   "year": 2027,
+   "label": "White Friday / Black Friday",
+   "start": "2027-11-19",
+   "end": "2027-11-29",
+   "status": "confirmed",
+   "friday": "2027-11-26"
+  },
+  {
+   "event": "ramadan",
+   "year": 2028,
+   "label": "Ramadan",
+   "start": "2028-01-28",
+   "end": "2028-02-15",
+   "status": "expected"
+  },
+  {
+   "event": "eid_al_fitr",
+   "year": 2028,
+   "label": "Eid al Fitr shopping",
+   "start": "2028-02-16",
+   "end": "2028-02-28",
+   "status": "expected",
+   "eid_day": "2028-02-26"
+  },
+  {
+   "event": "eid_al_adha",
+   "year": 2028,
+   "label": "Eid al Adha shopping",
+   "start": "2028-04-25",
+   "end": "2028-05-08",
+   "status": "expected",
+   "eid_day": "2028-05-05"
+  },
+  {
+   "event": "white_friday",
+   "year": 2028,
+   "label": "White Friday / Black Friday",
+   "start": "2028-11-17",
+   "end": "2028-11-27",
+   "status": "confirmed",
+   "friday": "2028-11-24"
+  }
+ ]
+}

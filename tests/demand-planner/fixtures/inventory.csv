@@ -1,0 +1,7 @@
+Handle,Title,Option1 Name,Option1 Value,SKU,Location,Incoming (not editable),Unavailable (not editable),Committed (not editable),Available (not editable),On hand (current),On hand (new)
+oxford-shirt,Oxford Shirt,Size,L,SKU-A,Cairo Warehouse,0,0,2,15,17,
+oxford-shirt,Oxford Shirt,Size,L,SKU-A,Alexandria Shop,0,0,0,5,5,
+linen-shirt,Linen Shirt,Size,M,SKU-B,Cairo Warehouse,0,0,0,30,30,
+tote-bag,Tote Bag,Title,Default Title,SKU-C,Cairo Warehouse,10,0,0,0,0,
+camp-shirt,Camp Shirt,Size,S,SKU-D,Cairo Warehouse,0,0,0,5,5,
+canvas-pouch,Canvas Pouch,Title,Default Title,SKU-E,Cairo Warehouse,0,0,0,8,8,
